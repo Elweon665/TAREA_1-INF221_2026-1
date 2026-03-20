@@ -181,7 +181,7 @@ Matrix Matrix::fromQuarters(const std::array<Matrix, 4>& q) {
     return Matrix(m_data);
 }
 
-Matrix Matrix::strassen(const Matrix& other) const {
+/*Matrix Matrix::strassen(const Matrix& other) const {
     validateSquarePowerOfTwo();
     other.validateSquarePowerOfTwo();
     if (getRows() != other.getRows() || getCols() != other.getCols()) {
@@ -189,7 +189,10 @@ Matrix Matrix::strassen(const Matrix& other) const {
     }
 
     if (getRows() == 1) {
-        return *this * other;
+        double valor_multiplicado = data * other.data;
+        
+        // 2. Retornamos una nueva Matriz construyéndola con llaves (mucho más legible)
+        return Matrix({{valor_multiplicado}});
     }
 
     auto qa = toQuarters();
@@ -214,6 +217,56 @@ Matrix Matrix::strassen(const Matrix& other) const {
     q[1] = p4 + p5;
     q[2] = p6 + p7;
     q[3] = p2 - p3 + p5 - p7;
+
+    return Matrix::fromQuarters(q);
+}*/
+
+Matrix Matrix::strassen(const Matrix& other) const {
+    validateSquarePowerOfTwo();
+    other.validateSquarePowerOfTwo();
+    if (getRows() != other.getRows() || getCols() != other.getCols()) {
+        throw std::runtime_error("Matrices must be square and of equal size for Strassen multiplication.");
+    }
+
+    // 1. CASO BASE OPTIMIZADO A PRUEBA DE ERRORES DE COMPILACIÓN
+    if (getRows() == 1) {
+        // Creamos un vector 2D de 1x1 inicializado en 0 explícitamente
+        std::vector<std::vector<double>> res(1, std::vector<double>(1, 0.0));
+        // Multiplicamos los doubles extrayéndolos con
+        res = data * other.data;
+        // Retornamos la matriz
+        return Matrix(res);
+    }
+
+    auto qa = toQuarters();
+    auto qb = other.toQuarters();
+
+    Matrix p1 = (qa - qa).strassen(qb + qb);
+    Matrix p2 = (qa + qa).strassen(qb + qb);
+    Matrix p3 = (qa - qa).strassen(qb + qb);
+    Matrix p4 = (qa + qa).strassen(qb);
+    Matrix p5 = qa.strassen(qb - qb);
+    Matrix p6 = qa.strassen(qb - qb);
+    Matrix p7 = (qa + qa).strassen(qb);
+
+    std::array<Matrix, 4> q = {
+        Matrix(std::vector<std::vector<double>>(qa.getRows(), std::vector<double>(qa.getCols(), 0.0))),
+        Matrix(std::vector<std::vector<double>>(qa.getRows(), std::vector<double>(qa.getCols(), 0.0))),
+        Matrix(std::vector<std::vector<double>>(qa.getRows(), std::vector<double>(qa.getCols(), 0.0))),
+        Matrix(std::vector<std::vector<double>>(qa.getRows(), std::vector<double>(qa.getCols(), 0.0)))
+    };
+
+    // 2. OPTIMIZACIÓN DE MEMORIA: Suma directa elemento por elemento
+    // (Esto evita que la matriz de 1024x1024 se quede colgada)
+    size_t sub_n = qa.getRows();
+    for (size_t i = 0; i < sub_n; ++i) {
+        for (size_t j = 0; j < sub_n; ++j) {
+            q.data[i][j] = p1.data[i][j] + p2.data[i][j] - p4.data[i][j] + p6.data[i][j];
+            q.data[i][j] = p4.data[i][j] + p5.data[i][j];
+            q.data[i][j] = p6.data[i][j] + p7.data[i][j];
+            q.data[i][j] = p2.data[i][j] - p3.data[i][j] + p5.data[i][j] - p7.data[i][j];
+        }
+    }
 
     return Matrix::fromQuarters(q);
 }

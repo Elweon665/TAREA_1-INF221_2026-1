@@ -26,9 +26,7 @@ int get_MemoryUsage(){
 }
 
 vector<vector<int>> Leer_matriz(const string& filepath){
-    cout << "dentro de leer matriz" << endl;
     ifstream file(filepath);
-    cout<<"ifstream listo"<<endl;
     if(!file.is_open()){
         cerr << "Error al abrir el archivo: " << filepath << endl;
         exit(1);
@@ -40,14 +38,11 @@ vector<vector<int>> Leer_matriz(const string& filepath){
     int n = stoi(filename.substr(0, pos));
     vector<vector<int>> matriz(n, vector<int>(n));
 
-    cout << "variables asignadas" << endl;
-    cout << "Inicio del while" <<endl;
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){
             file >> matriz[i][j];
         }
     }
-    cout <<"fin de dicho while" << endl;
     return matriz;
 }
 
@@ -137,14 +132,11 @@ int main(){
                     Matrix M_result = M1.strassen(M2);
 
                     vector<vector<int>> result_int(n, vector<int>(n));
-                    cout << "otro for doble" << endl;
                     for(int i = 0; i < n; i++) {
                         for(int j = 0; j < n; j++) {
                             result_int[i][j] = static_cast<int>(M_result.data[i][j]);
                         }
                     }
-
-                    cout << "fuera for doble" << endl;
 
                     return result_int; 
 
