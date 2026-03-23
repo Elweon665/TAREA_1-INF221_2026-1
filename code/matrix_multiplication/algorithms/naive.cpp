@@ -1,8 +1,12 @@
+/* Fuentes de informacion:
+-Matrix-Multiplication(Naive).cpp https://github.com/Dev-XYS/Algorithms/blob/master/Matrix-Multiplication%28Naive%29.cpp*/
+
 #include <vector>
 #include "matrix.h"
 
 using namespace std;
-
+//Matrix-Multiplication(Naive).cpp
+//Se adaptó el codigo para poder usar vectores
 vector<vector<int>> naive(const vector<vector<int>>& A, const vector<vector<int>>& B){
     int tamaño = A.size();
     vector<vector<int>> C(tamaño,vector<int>(tamaño, 0));

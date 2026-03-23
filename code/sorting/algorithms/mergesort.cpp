@@ -1,5 +1,13 @@
+/*Fuentes de informacion:
+-Welcome to Merge Sort in C++ https://codesignal.com/learn/courses/sorting-and-searching-algorithms-in-cpp/lessons/exploring-merge-sort-in-cpp
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
+
+//-Welcome to Merge Sort in C++ https://codesignal.com/learn/courses/sorting-and-searching-algorithms-in-cpp/lessons/exploring-merge-sort-in-cpp
+// Se usó el codigo de esta pagina como tal
 
 void merge(vector<int>& arr, int left, int mid, int right){
     int n1 = mid-left + 1;
@@ -40,6 +48,9 @@ void sort(vector<int>& arr, int left, int right){
         merge(arr, left, mid, right);
     }
 }
+
+//Aquí una modificacion, pues en lugar de usar un main se creó
+//esta funcion base para iniciar el algoritmo, tomando algunas ideas de la fuente anterior.
 void mergeSort(vector<int>& arr) {
     int arr_size = arr.size();
     

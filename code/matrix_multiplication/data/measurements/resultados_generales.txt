@@ -1,58 +1,673 @@
-Dataset: 16_diagonal_D0_c
+Dataset: 64_diagonal_D10_c
 Algoritmo: Naive
-Tiempo (ms): 0
+Tiempo (ms): 6
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 16_diagonal_D0_c
+Dataset: 64_diagonal_D10_c
 Algoritmo: Strassen
-Tiempo (ms): 27
+Tiempo (ms): 389
+Memoria utilizada (KB): 384
+-----------------------------------
+Dataset: 64_diagonal_D10_b
+Algoritmo: Naive
+Tiempo (ms): 2
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 256_dispersa_D10_c
+Dataset: 64_diagonal_D10_b
+Algoritmo: Strassen
+Tiempo (ms): 403
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_dispersa_D0_b
 Algoritmo: Naive
-Tiempo (ms): 228
+Tiempo (ms): 134
 Memoria utilizada (KB): 256
 -----------------------------------
-Dataset: 256_dispersa_D10_c
+Dataset: 256_dispersa_D0_b
 Algoritmo: Strassen
-Tiempo (ms): 30647
-Memoria utilizada (KB): 5248
------------------------------------
-Dataset: 16_densa_D10_b
-Algoritmo: Naive
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 16_densa_D10_b
-Algoritmo: Strassen
-Tiempo (ms): 13
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1024_densa_D0_a
-Algoritmo: Naive
-Tiempo (ms): 13960
-Memoria utilizada (KB): 4096
------------------------------------
-Dataset: 16_diagonal_D0_c
-Algoritmo: Naive
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 16_diagonal_D0_c
-Algoritmo: Strassen
-Tiempo (ms): 16
-Memoria utilizada (KB): 128
------------------------------------
-Dataset: 256_dispersa_D10_c
-Algoritmo: Naive
-Tiempo (ms): 212
-Memoria utilizada (KB): 256
------------------------------------
-Dataset: 256_dispersa_D10_c
-Algoritmo: Strassen
-Tiempo (ms): 31224
+Tiempo (ms): 18564
 Memoria utilizada (KB): 5376
 -----------------------------------
+Dataset: 256_densa_D0_c
+Algoritmo: Naive
+Tiempo (ms): 137
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_densa_D0_c
+Algoritmo: Strassen
+Tiempo (ms): 19045
+Memoria utilizada (KB): 84
+-----------------------------------
+Dataset: 1024_diagonal_D10_a
+Algoritmo: Naive
+Tiempo (ms): 10394
+Memoria utilizada (KB): 4224
+-----------------------------------
+Dataset: 1024_diagonal_D10_a
+Algoritmo: Strassen
+Tiempo (ms): 945266
+Memoria utilizada (KB): 84460
+-----------------------------------
+Dataset: 1024_diagonal_D0_c
+Algoritmo: Naive
+Tiempo (ms): 12540
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_diagonal_D0_c
+Algoritmo: Strassen
+Tiempo (ms): 905320
+Memoria utilizada (KB): 88
+-----------------------------------
+Dataset: 64_dispersa_D10_c
+Algoritmo: Naive
+Tiempo (ms): 2
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_dispersa_D10_c
+Algoritmo: Strassen
+Tiempo (ms): 420
+Memoria utilizada (KB): 16
+-----------------------------------
+Dataset: 1024_densa_D10_a
+Algoritmo: Naive
+Tiempo (ms): 8853
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_densa_D10_a
+Algoritmo: Strassen
+Tiempo (ms): 857986
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_densa_D0_b
+Algoritmo: Naive
+Tiempo (ms): 1
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_densa_D0_b
+Algoritmo: Strassen
+Tiempo (ms): 357
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_dispersa_D0_c
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_dispersa_D0_c
+Algoritmo: Strassen
+Tiempo (ms): 7
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_diagonal_D0_b
+Algoritmo: Naive
+Tiempo (ms): 8370
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_diagonal_D0_b
+Algoritmo: Strassen
+Tiempo (ms): 845577
+Memoria utilizada (KB): 100
+-----------------------------------
+Dataset: 1024_diagonal_D10_b
+Algoritmo: Naive
+Tiempo (ms): 8477
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_diagonal_D10_b
+Algoritmo: Strassen
+Tiempo (ms): 845269
+Memoria utilizada (KB): 243
+-----------------------------------
+Dataset: 64_diagonal_D10_a
+Algoritmo: Naive
+Tiempo (ms): 1
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_diagonal_D10_a
+Algoritmo: Strassen
+Tiempo (ms): 355
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_densa_D10_c
+Algoritmo: Naive
+Tiempo (ms): 125
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_densa_D10_c
+Algoritmo: Strassen
+Tiempo (ms): 17338
+Memoria utilizada (KB): 43
+-----------------------------------
+Dataset: 64_densa_D0_a
+Algoritmo: Naive
+Tiempo (ms): 1
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_densa_D0_a
+Algoritmo: Strassen
+Tiempo (ms): 356
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_diagonal_D0_a
+Algoritmo: Naive
+Tiempo (ms): 1
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_diagonal_D0_a
+Algoritmo: Strassen
+Tiempo (ms): 391
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_diagonal_D10_b
+Algoritmo: Naive
+Tiempo (ms): 123
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_diagonal_D10_b
+Algoritmo: Strassen
+Tiempo (ms): 17271
+Memoria utilizada (KB): 50
+-----------------------------------
+Dataset: 256_densa_D10_b
+Algoritmo: Naive
+Tiempo (ms): 127
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_densa_D10_b
+Algoritmo: Strassen
+Tiempo (ms): 17354
+Memoria utilizada (KB): 33
+-----------------------------------
+Dataset: 16_dispersa_D10_b
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_dispersa_D10_b
+Algoritmo: Strassen
+Tiempo (ms): 7
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_diagonal_D0_a
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_diagonal_D0_a
+Algoritmo: Strassen
+Tiempo (ms): 8
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_densa_D10_c
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_densa_D10_c
+Algoritmo: Strassen
+Tiempo (ms): 8
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_diagonal_D10_c
+Algoritmo: Naive
+Tiempo (ms): 8549
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_diagonal_D10_c
+Algoritmo: Strassen
+Tiempo (ms): 858487
+Memoria utilizada (KB): 43089
+-----------------------------------
+Dataset: 16_diagonal_D10_c
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_diagonal_D10_c
+Algoritmo: Strassen
+Tiempo (ms): 8
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_densa_D0_b
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_densa_D0_b
+Algoritmo: Strassen
+Tiempo (ms): 7
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_diagonal_D0_b
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_diagonal_D0_b
+Algoritmo: Strassen
+Tiempo (ms): 8
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_dispersa_D10_b
+Algoritmo: Naive
+Tiempo (ms): 1
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_dispersa_D10_b
+Algoritmo: Strassen
+Tiempo (ms): 362
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_densa_D10_a
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_densa_D10_a
+Algoritmo: Strassen
+Tiempo (ms): 7
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_diagonal_D0_a
+Algoritmo: Naive
+Tiempo (ms): 121
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_diagonal_D0_a
+Algoritmo: Strassen
+Tiempo (ms): 17332
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_dispersa_D10_a
+Algoritmo: Naive
+Tiempo (ms): 8542
+Memoria utilizada (KB): 20670
+-----------------------------------
+Dataset: 1024_dispersa_D10_a
+Algoritmo: Strassen
+Tiempo (ms): 859431
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_dispersa_D0_c
+Algoritmo: Naive
+Tiempo (ms): 2
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_dispersa_D0_c
+Algoritmo: Strassen
+Tiempo (ms): 377
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_diagonal_D0_b
+Algoritmo: Naive
+Tiempo (ms): 2
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_diagonal_D0_b
+Algoritmo: Strassen
+Tiempo (ms): 383
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_diagonal_D10_a
+Algoritmo: Naive
+Tiempo (ms): 122
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_diagonal_D10_a
+Algoritmo: Strassen
+Tiempo (ms): 17516
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_dispersa_D0_c
+Algoritmo: Naive
+Tiempo (ms): 8558
+Memoria utilizada (KB): 100
+-----------------------------------
+Dataset: 1024_dispersa_D0_c
+Algoritmo: Strassen
+Tiempo (ms): 847718
+Memoria utilizada (KB): 3509
+-----------------------------------
+Dataset: 16_dispersa_D0_a
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_dispersa_D0_a
+Algoritmo: Strassen
+Tiempo (ms): 9
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_diagonal_D10_b
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_diagonal_D10_b
+Algoritmo: Strassen
+Tiempo (ms): 7
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_dispersa_D10_c
+Algoritmo: Naive
+Tiempo (ms): 8244
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_dispersa_D10_c
+Algoritmo: Strassen
+Tiempo (ms): 845467
+Memoria utilizada (KB): 43980
+-----------------------------------
+Dataset: 64_dispersa_D0_b
+Algoritmo: Naive
+Tiempo (ms): 2
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_dispersa_D0_b
+Algoritmo: Strassen
+Tiempo (ms): 370
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_dispersa_D10_b
+Algoritmo: Naive
+Tiempo (ms): 8188
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_dispersa_D10_b
+Algoritmo: Strassen
+Tiempo (ms): 853697
+Memoria utilizada (KB): 24598
+-----------------------------------
+Dataset: 256_diagonal_D10_c
+Algoritmo: Naive
+Tiempo (ms): 124
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_diagonal_D10_c
+Algoritmo: Strassen
+Tiempo (ms): 17268
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_densa_D0_a
+Algoritmo: Naive
+Tiempo (ms): 8295
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_densa_D0_a
+Algoritmo: Strassen
+Tiempo (ms): 854802
+Memoria utilizada (KB): 1274
+-----------------------------------
+Dataset: 64_dispersa_D10_a
+Algoritmo: Naive
+Tiempo (ms): 2
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_dispersa_D10_a
+Algoritmo: Strassen
+Tiempo (ms): 365
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_diagonal_D0_c
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_diagonal_D0_c
+Algoritmo: Strassen
+Tiempo (ms): 8
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_dispersa_D10_b
+Algoritmo: Naive
+Tiempo (ms): 120
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_dispersa_D10_b
+Algoritmo: Strassen
+Tiempo (ms): 17395
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_diagonal_D10_a
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_diagonal_D10_a
+Algoritmo: Strassen
+Tiempo (ms): 8
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_diagonal_D0_a
+Algoritmo: Naive
+Tiempo (ms): 7983
+Memoria utilizada (KB): 100
+-----------------------------------
+Dataset: 1024_diagonal_D0_a
+Algoritmo: Strassen
+Tiempo (ms): 855295
+Memoria utilizada (KB): 4356
+-----------------------------------
+Dataset: 16_dispersa_D10_a
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_dispersa_D10_a
+Algoritmo: Strassen
+Tiempo (ms): 9
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_densa_D10_a
+Algoritmo: Naive
+Tiempo (ms): 131
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_densa_D10_a
+Algoritmo: Strassen
+Tiempo (ms): 17284
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_densa_D0_b
+Algoritmo: Naive
+Tiempo (ms): 161
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_densa_D0_b
+Algoritmo: Strassen
+Tiempo (ms): 17317
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_dispersa_D0_c
+Algoritmo: Naive
+Tiempo (ms): 128
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_dispersa_D0_c
+Algoritmo: Strassen
+Tiempo (ms): 17247
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_dispersa_D0_a
+Algoritmo: Naive
+Tiempo (ms): 1
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_dispersa_D0_a
+Algoritmo: Strassen
+Tiempo (ms): 358
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_densa_D10_b
+Algoritmo: Naive
+Tiempo (ms): 1
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_densa_D10_b
+Algoritmo: Strassen
+Tiempo (ms): 362
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_densa_D0_c
+Algoritmo: Naive
+Tiempo (ms): 8716
+Memoria utilizada (KB): 24
+-----------------------------------
+Dataset: 1024_densa_D0_c
+Algoritmo: Strassen
+Tiempo (ms): 859638
+Memoria utilizada (KB): 232
+-----------------------------------
+Dataset: 64_densa_D0_c
+Algoritmo: Naive
+Tiempo (ms): 2
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_densa_D0_c
+Algoritmo: Strassen
+Tiempo (ms): 368
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_densa_D0_c
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_densa_D0_c
+Algoritmo: Strassen
+Tiempo (ms): 10
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_densa_D10_c
+Algoritmo: Naive
+Tiempo (ms): 2
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_densa_D10_c
+Algoritmo: Strassen
+Tiempo (ms): 368
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_densa_D10_b
+Algoritmo: Naive
+Tiempo (ms): 8743
+Memoria utilizada (KB): 35
+-----------------------------------
+Dataset: 1024_densa_D10_b
+Algoritmo: Strassen
+Tiempo (ms): 861278
+Memoria utilizada (KB): 985
+-----------------------------------
+Dataset: 256_diagonal_D0_c
+Algoritmo: Naive
+Tiempo (ms): 126
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_diagonal_D0_c
+Algoritmo: Strassen
+Tiempo (ms): 17691
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_diagonal_D0_c
+Algoritmo: Naive
+Tiempo (ms): 2
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_diagonal_D0_c
+Algoritmo: Strassen
+Tiempo (ms): 367
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_densa_D10_a
+Algoritmo: Naive
+Tiempo (ms): 1
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 64_densa_D10_a
+Algoritmo: Strassen
+Tiempo (ms): 370
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_dispersa_D0_a
+Algoritmo: Naive
+Tiempo (ms): 125
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_dispersa_D0_a
+Algoritmo: Strassen
+Tiempo (ms): 17388
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_densa_D0_b
+Algoritmo: Naive
+Tiempo (ms): 9145
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_densa_D0_b
+Algoritmo: Strassen
+Tiempo (ms): 862092
+Memoria utilizada (KB): 4794
+-----------------------------------
+Dataset: 256_dispersa_D10_c
+Algoritmo: Naive
+Tiempo (ms): 125
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_dispersa_D10_c
+Algoritmo: Strassen
+Tiempo (ms): 17478
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_densa_D0_a
+Algoritmo: Naive
+Tiempo (ms): 131
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_densa_D0_a
+Algoritmo: Strassen
+Tiempo (ms): 17457
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_densa_D10_c
+Algoritmo: Naive
+Tiempo (ms): 9014
+Memoria utilizada (KB): 104
+-----------------------------------
+Dataset: 1024_densa_D10_c
+Algoritmo: Strassen
+Tiempo (ms): 865645
+Memoria utilizada (KB): 10985
+-----------------------------------
+Dataset: 1024_dispersa_D0_a
+Algoritmo: Naive
+Tiempo (ms): 9112
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_dispersa_D0_a
+Algoritmo: Strassen
+Tiempo (ms): 852437
+Memoria utilizada (KB): 3487
+-----------------------------------
+Dataset: 16_densa_D0_a
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_densa_D0_a
+Algoritmo: Strassen
+Tiempo (ms): 8
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_dispersa_D10_a
+Algoritmo: Naive
+Tiempo (ms): 127
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_dispersa_D10_a
+Algoritmo: Strassen
+Tiempo (ms): 17319
+Memoria utilizada (KB): 0
+-----------------------------------
 Dataset: 16_densa_D10_b
 Algoritmo: Naive
 Tiempo (ms): 0
@@ -60,11 +675,46 @@ Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 16_densa_D10_b
 Algoritmo: Strassen
-Tiempo (ms): 14
+Tiempo (ms): 8
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1024_densa_D0_a
+Dataset: 16_dispersa_D10_c
 Algoritmo: Naive
-Tiempo (ms): 13958
-Memoria utilizada (KB): 4096
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_dispersa_D10_c
+Algoritmo: Strassen
+Tiempo (ms): 7
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_diagonal_D0_b
+Algoritmo: Naive
+Tiempo (ms): 126
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 256_diagonal_D0_b
+Algoritmo: Strassen
+Tiempo (ms): 17373
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1024_dispersa_D0_b
+Algoritmo: Naive
+Tiempo (ms): 8336
+Memoria utilizada (KB): 78
+-----------------------------------
+Dataset: 1024_dispersa_D0_b
+Algoritmo: Strassen
+Tiempo (ms): 862093
+Memoria utilizada (KB): 6872
+-----------------------------------
+Dataset: 16_dispersa_D0_b
+Algoritmo: Naive
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 16_dispersa_D0_b
+Algoritmo: Strassen
+Tiempo (ms): 8
+Memoria utilizada (KB): 0
 -----------------------------------

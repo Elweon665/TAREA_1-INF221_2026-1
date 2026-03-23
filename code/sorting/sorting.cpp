@@ -1,3 +1,14 @@
+/*Fuentes de informacion:
+-C++ Files and Streams https://www.tutorialspoint.com/cplusplus/cpp_files_streams.htm
+-How to Measure Memory Usage in C++ https://mrswolf.github.io/memory-usage-cpp/
+-Using getline() with the file input in C++ https://stackoverflow.com/questions/20739453/using-getline-with-file-input-in-c
+-Getline en C++ - Ejemplo con función getline() https://www.freecodecamp.org/espanol/news/getline-en-c-ejemplo-con-funcion-getline/
+-getrusage(2) — Linux manual page https://man7.org/linux/man-pages/man2/getrusage.2.html
+-Ideas de gemini www.gemini.google.com
+-The /proc Filesystem https://www.kernel.org/doc/html/latest/filesystems/proc.html
+-std::filesystem::path https://en.cppreference.com/w/cpp/filesystem/path.html*/
+
+
 #include <bits/stdc++.h>
 #include <filesystem>
 #include <chrono>
@@ -8,6 +19,9 @@ using namespace std;
 using namespace std::chrono;
 namespace fs = std::filesystem;
 
+
+//C++ Files and Streams https://www.tutorialspoint.com/cplusplus/cpp_files_streams.htm
+//Ciertas ideas del codigo fueron tomados de aqui
 void writeArrayToFile(const vector<int>& arr, const string& nombre_de_archivo){
     ofstream file(nombre_de_archivo);
     for(int num : arr){
@@ -15,13 +29,29 @@ void writeArrayToFile(const vector<int>& arr, const string& nombre_de_archivo){
     }
 }
 
+//Ideas de gemini
+//The /proc Filesystem
+//Se combinaronambas ideas para crear la funcion
+//Difiere del calculo de memoria en matrices, pues por alguna razón este codigo funciona mejor para el caso de los arreglos.
 int get_MemoryUsage(){
-    struct rusage usage;
-    int ret;
-    ret = getrusage(RUSAGE_SELF, &usage);
-    return usage.ru_maxrss;
+    ifstream status("/proc/self/status");
+    string line;
+    while (getline(status, line)) {
+        if (line.rfind("VmRSS:", 0) == 0) {
+            istringstream iss(line);
+            string key;
+            long value;
+            string unit;
+            iss >> key >> value >> unit; 
+            return value;
+        }
+    }
+    return 0;
 }
 
+//-C++ Files and Streams
+//Using getline() with the file input in C++
+//Se cominaron ambas fuentes ppara la funcion.
 vector<int> Leer_arreglo(const string& filename){
     cout << "dentro de ller arreglo" << endl;
     ifstream file(filename);
@@ -33,23 +63,27 @@ vector<int> Leer_arreglo(const string& filename){
     vector<int> arreglo;
     int num;
     string linea;
-    cout << "variables asignadas" << endl;
-    cout << "Inicio del while" <<endl;
     while (file >> num){
         arreglo.push_back(num);
     }
-    cout <<"fin de dicho while" << endl;
     return arreglo;
 }
 
-void realizar_mediciones(function<void(vector<int>&)> sortAlgorithm, vector<int> arr, const string& algoName, const string& datasetName){
-    int memoria_inicial = get_MemoryUsage();
-    auto start = std::chrono::high_resolution_clock::now();
-    sortAlgorithm(arr);
-    auto stop = std::chrono::high_resolution_clock::now();
 
-    int memoria_actual = get_MemoryUsage();
-    int memoria_usada = memoria_actual - memoria_inicial;
+//-C++ Files and Streams
+//Using getline() with the file input in C++
+//Ideas de Gemini
+
+void realizar_mediciones(function<void(vector<int>&)> sortAlgorithm, vector<int> arr, const string& algoName, const string& datasetName){
+    long memoria_inicial = get_MemoryUsage();
+    long memoria_peak = memoria_inicial;
+
+    auto start = high_resolution_clock::now();
+    sortAlgorithm(arr);
+    long memoria_post = get_MemoryUsage();
+    auto stop = high_resolution_clock::now();
+
+    long memoria_usada = max(0L, memoria_post - memoria_inicial);
 
     auto duracion = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
 
@@ -72,6 +106,10 @@ void realizar_mediciones(function<void(vector<int>&)> sortAlgorithm, vector<int>
     writeArrayToFile(arr, sortedFilename);
 }
 
+//-C++ Files and Streams
+//Using getline() with the file input in C++
+//Ideas de Gemini
+//std::filesystem::path
 int main(){
     string directorio_entrada = "data/array_input";
 
@@ -89,14 +127,15 @@ int main(){
             cout << "strings asignados" << endl;
             vector<int> original_arr = Leer_arreglo(filepath);
             cout << "vector asignado" << endl;
-            cout << "  -> Ejecutando MergeSort..." << endl;
-            realizar_mediciones([&](vector<int>& a) { mergeSort(a); }, original_arr, "MergeSort", datasetName);
 
             cout << "  -> Ejecutando QuickSort..." << endl;
             realizar_mediciones([&](vector<int>& a) { quickSort(a); }, original_arr, "QuickSort", datasetName);
 
             cout << "  -> Ejecutando std::sort..." << endl;
             realizar_mediciones([&](vector<int>& a) { std::sort(a.begin(), a.end()); }, original_arr, "Sort", datasetName);
+
+            cout << "  -> Ejecutando MergeSort..." << endl;
+            realizar_mediciones([&](vector<int>& a) { mergeSort(a); }, original_arr, "MergeSort", datasetName);
         }
 
     }

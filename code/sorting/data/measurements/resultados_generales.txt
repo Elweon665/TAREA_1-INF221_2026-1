@@ -1,906 +1,196 @@
-Dataset: 100000_aleatorio_D1_c
-Algoritmo: MergeSort
-Tiempo (ms): 58
-Memoria utilizada (KB): 256
------------------------------------
-Dataset: 100000_aleatorio_D1_c
-Algoritmo: QuickSort
-Tiempo (ms): 22
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D1_c
-Algoritmo: Sort
-Tiempo (ms): 30
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D1_c
-Algoritmo: MergeSort
-Tiempo (ms): 6192
-Memoria utilizada (KB): 38716
------------------------------------
-Dataset: 10000000_aleatorio_D1_c
-Algoritmo: QuickSort
-Tiempo (ms): 2517
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D1_c
-Algoritmo: Sort
-Tiempo (ms): 3958
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D1_a
-Algoritmo: MergeSort
-Tiempo (ms): 46
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D1_a
-Algoritmo: QuickSort
-Tiempo (ms): 17
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D1_a
-Algoritmo: Sort
-Tiempo (ms): 26
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_descendente_D7_b
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_descendente_D7_b
+Dataset: 1000_aleatorio_D1_c
 Algoritmo: QuickSort
 Tiempo (ms): 0
-Memoria utilizada (KB): 0
+Memoria utilizada (KB): 12
 -----------------------------------
-Dataset: 1000_descendente_D7_b
+Dataset: 1000_aleatorio_D1_c
 Algoritmo: Sort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10000000_ascendente_D7_b
-Algoritmo: MergeSort
-Tiempo (ms): 5402
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_ascendente_D7_b
-Algoritmo: QuickSort
-Tiempo (ms): 1441
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_ascendente_D7_b
-Algoritmo: Sort
-Tiempo (ms): 3142
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D1_c
+Dataset: 1000_aleatorio_D1_c
 Algoritmo: MergeSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_ascendente_D1_c
+Dataset: 1000_descendente_D1_a
 Algoritmo: QuickSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_ascendente_D1_c
+Dataset: 1000_descendente_D1_a
 Algoritmo: Sort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10000000_ascendente_D7_a
-Algoritmo: MergeSort
-Tiempo (ms): 5439
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_ascendente_D7_a
-Algoritmo: QuickSort
-Tiempo (ms): 1540
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_ascendente_D7_a
-Algoritmo: Sort
-Tiempo (ms): 3121
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D7_a
-Algoritmo: MergeSort
-Tiempo (ms): 63
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D7_a
-Algoritmo: QuickSort
-Tiempo (ms): 22
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D7_a
-Algoritmo: Sort
-Tiempo (ms): 38
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D7_b
-Algoritmo: MergeSort
-Tiempo (ms): 7134
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D7_b
-Algoritmo: QuickSort
-Tiempo (ms): 2958
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D7_b
-Algoritmo: Sort
-Tiempo (ms): 4373
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D7_a
+Dataset: 1000_descendente_D1_a
 Algoritmo: MergeSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_ascendente_D7_a
+Dataset: 1000_ascendente_D7_c
 Algoritmo: QuickSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_ascendente_D7_a
+Dataset: 1000_ascendente_D7_c
 Algoritmo: Sort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10000000_descendente_D1_b
-Algoritmo: MergeSort
-Tiempo (ms): 5642
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_descendente_D1_b
-Algoritmo: QuickSort
-Tiempo (ms): 2420
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_descendente_D1_b
-Algoritmo: Sort
-Tiempo (ms): 4062
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_descendente_D1_c
+Dataset: 1000_ascendente_D7_c
 Algoritmo: MergeSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_descendente_D1_c
+Dataset: 10_descendente_D7_a
 Algoritmo: QuickSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_descendente_D1_c
+Dataset: 10_descendente_D7_a
 Algoritmo: Sort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 100000_descendente_D7_b
-Algoritmo: MergeSort
-Tiempo (ms): 49
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_descendente_D7_b
-Algoritmo: QuickSort
-Tiempo (ms): 13
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_descendente_D7_b
-Algoritmo: Sort
-Tiempo (ms): 18
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_descendente_D7_a
+Dataset: 10_descendente_D7_a
 Algoritmo: MergeSort
 Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_descendente_D7_a
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_descendente_D7_a
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_descendente_D7_c
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_descendente_D7_c
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_descendente_D7_c
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_descendente_D7_b
-Algoritmo: MergeSort
-Tiempo (ms): 5861
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_descendente_D7_b
-Algoritmo: QuickSort
-Tiempo (ms): 1577
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_descendente_D7_b
-Algoritmo: Sort
-Tiempo (ms): 2704
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D7_c
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D7_c
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D7_c
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D7_a
-Algoritmo: MergeSort
-Tiempo (ms): 51
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D7_a
-Algoritmo: QuickSort
-Tiempo (ms): 13
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D7_a
-Algoritmo: Sort
-Tiempo (ms): 23
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D7_b
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D7_b
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D7_b
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D7_a
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D7_a
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D7_a
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_descendente_D1_b
-Algoritmo: MergeSort
-Tiempo (ms): 50
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_descendente_D1_b
-Algoritmo: QuickSort
-Tiempo (ms): 16
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_descendente_D1_b
-Algoritmo: Sort
-Tiempo (ms): 27
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D1_a
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D1_a
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D1_a
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D1_b
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D1_b
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D1_b
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D1_b
-Algoritmo: MergeSort
-Tiempo (ms): 6292
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D1_b
-Algoritmo: QuickSort
-Tiempo (ms): 2574
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D1_b
-Algoritmo: Sort
-Tiempo (ms): 4118
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D1_a
-Algoritmo: MergeSort
-Tiempo (ms): 53
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D1_a
-Algoritmo: QuickSort
-Tiempo (ms): 19
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D1_a
-Algoritmo: Sort
-Tiempo (ms): 29
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D1_a
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D1_a
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D1_a
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D1_b
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D1_b
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D1_b
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_descendente_D1_c
-Algoritmo: MergeSort
-Tiempo (ms): 5844
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_descendente_D1_c
-Algoritmo: QuickSort
-Tiempo (ms): 2388
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_descendente_D1_c
-Algoritmo: Sort
-Tiempo (ms): 3798
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D1_a
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D1_a
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D1_a
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D1_c
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D1_c
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D1_c
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D7_b
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D7_b
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D7_b
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D7_c
-Algoritmo: MergeSort
-Tiempo (ms): 61
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D7_c
-Algoritmo: QuickSort
-Tiempo (ms): 16
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D7_c
-Algoritmo: Sort
-Tiempo (ms): 22
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_descendente_D7_a
-Algoritmo: MergeSort
-Tiempo (ms): 47
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 100000_descendente_D7_a
 Algoritmo: QuickSort
+Tiempo (ms): 14
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_descendente_D7_a
+Algoritmo: Sort
 Tiempo (ms): 12
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 100000_descendente_D7_a
-Algoritmo: Sort
-Tiempo (ms): 17
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D7_c
 Algoritmo: MergeSort
-Tiempo (ms): 7723
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D7_c
-Algoritmo: QuickSort
-Tiempo (ms): 3164
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D7_c
-Algoritmo: Sort
-Tiempo (ms): 4689
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D7_c
-Algoritmo: MergeSort
-Tiempo (ms): 63
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D7_c
-Algoritmo: QuickSort
-Tiempo (ms): 23
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D7_c
-Algoritmo: Sort
-Tiempo (ms): 38
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D1_c
-Algoritmo: MergeSort
-Tiempo (ms): 55
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D1_c
-Algoritmo: QuickSort
-Tiempo (ms): 16
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D1_c
-Algoritmo: Sort
-Tiempo (ms): 29
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_descendente_D1_a
-Algoritmo: MergeSort
-Tiempo (ms): 55
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_descendente_D1_a
-Algoritmo: QuickSort
-Tiempo (ms): 19
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_descendente_D1_a
-Algoritmo: Sort
-Tiempo (ms): 28
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_descendente_D7_a
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_descendente_D7_a
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_descendente_D7_a
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D1_b
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D1_b
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D1_b
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_descendente_D1_c
-Algoritmo: MergeSort
-Tiempo (ms): 53
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_descendente_D1_c
-Algoritmo: QuickSort
-Tiempo (ms): 25
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_descendente_D1_c
-Algoritmo: Sort
-Tiempo (ms): 42
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_descendente_D1_c
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_descendente_D1_c
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_descendente_D1_c
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D7_a
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D7_a
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D7_a
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D7_c
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D7_c
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D7_c
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D1_b
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D1_b
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D1_b
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D7_b
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D7_b
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D7_b
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_ascendente_D7_c
-Algoritmo: MergeSort
-Tiempo (ms): 5827
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_ascendente_D7_c
-Algoritmo: QuickSort
-Tiempo (ms): 1541
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_ascendente_D7_c
-Algoritmo: Sort
-Tiempo (ms): 3295
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D7_c
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D7_c
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_ascendente_D7_c
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D1_c
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D1_c
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D1_c
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_descendente_D1_b
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_descendente_D1_b
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_descendente_D1_b
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D1_a
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D1_a
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_aleatorio_D1_a
-Algoritmo: Sort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_descendente_D7_a
-Algoritmo: MergeSort
-Tiempo (ms): 5912
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_descendente_D7_a
-Algoritmo: QuickSort
-Tiempo (ms): 1583
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_descendente_D7_a
-Algoritmo: Sort
-Tiempo (ms): 2879
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D7_b
-Algoritmo: MergeSort
-Tiempo (ms): 45
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D7_b
-Algoritmo: QuickSort
-Tiempo (ms): 15
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_ascendente_D7_b
-Algoritmo: Sort
-Tiempo (ms): 24
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_ascendente_D1_a
-Algoritmo: MergeSort
-Tiempo (ms): 5954
-Memoria utilizada (KB): 0
+Tiempo (ms): 35
+Memoria utilizada (KB): 384
 -----------------------------------
 Dataset: 10000000_ascendente_D1_a
 Algoritmo: QuickSort
-Tiempo (ms): 2307
+Tiempo (ms): 1572
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 10000000_ascendente_D1_a
 Algoritmo: Sort
-Tiempo (ms): 3834
+Tiempo (ms): 1841
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10000000_descendente_D1_a
+Dataset: 10000000_ascendente_D1_a
 Algoritmo: MergeSort
-Tiempo (ms): 6023
-Memoria utilizada (KB): 0
+Tiempo (ms): 3795
+Memoria utilizada (KB): 19396
 -----------------------------------
-Dataset: 10000000_descendente_D1_a
-Algoritmo: QuickSort
-Tiempo (ms): 2347
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_descendente_D1_a
-Algoritmo: Sort
-Tiempo (ms): 3921
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_descendente_D1_a
-Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_descendente_D1_a
+Dataset: 1000_aleatorio_D7_a
 Algoritmo: QuickSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10_descendente_D1_a
+Dataset: 1000_aleatorio_D7_a
 Algoritmo: Sort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10_ascendente_D7_b
+Dataset: 1000_aleatorio_D7_a
 Algoritmo: MergeSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10_ascendente_D7_b
+Dataset: 100000_aleatorio_D7_c
+Algoritmo: QuickSort
+Tiempo (ms): 18
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D7_c
+Algoritmo: Sort
+Tiempo (ms): 20
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D7_c
+Algoritmo: MergeSort
+Tiempo (ms): 41
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_descendente_D7_a
 Algoritmo: QuickSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10_ascendente_D7_b
+Dataset: 1000_descendente_D7_a
 Algoritmo: Sort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 100000_descendente_D7_c
+Dataset: 1000_descendente_D7_a
 Algoritmo: MergeSort
-Tiempo (ms): 51
+Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 100000_descendente_D7_c
+Dataset: 100000_ascendente_D1_c
 Algoritmo: QuickSort
+Tiempo (ms): 11
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_ascendente_D1_c
+Algoritmo: Sort
 Tiempo (ms): 13
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 100000_descendente_D7_c
-Algoritmo: Sort
-Tiempo (ms): 19
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_ascendente_D1_c
+Dataset: 100000_ascendente_D1_c
 Algoritmo: MergeSort
-Tiempo (ms): 5950
+Tiempo (ms): 33
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10000000_ascendente_D1_c
+Dataset: 100000_descendente_D7_b
 Algoritmo: QuickSort
-Tiempo (ms): 2317
+Tiempo (ms): 9
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10000000_ascendente_D1_c
+Dataset: 100000_descendente_D7_b
 Algoritmo: Sort
-Tiempo (ms): 3728
+Tiempo (ms): 8
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10000000_descendente_D7_c
+Dataset: 100000_descendente_D7_b
 Algoritmo: MergeSort
-Tiempo (ms): 5759
+Tiempo (ms): 33
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10000000_descendente_D7_c
+Dataset: 1000_descendente_D7_c
 Algoritmo: QuickSort
-Tiempo (ms): 1617
+Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10000000_descendente_D7_c
+Dataset: 1000_descendente_D7_c
 Algoritmo: Sort
-Tiempo (ms): 2867
+Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10000000_aleatorio_D7_a
-Algoritmo: MergeSort
-Tiempo (ms): 7339
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D7_a
-Algoritmo: QuickSort
-Tiempo (ms): 2989
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D7_a
-Algoritmo: Sort
-Tiempo (ms): 4496
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_ascendente_D7_c
+Dataset: 1000_descendente_D7_c
 Algoritmo: MergeSort
 Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_descendente_D1_b
+Algoritmo: QuickSort
+Tiempo (ms): 11
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_descendente_D1_b
+Algoritmo: Sort
+Tiempo (ms): 14
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_descendente_D1_b
+Algoritmo: MergeSort
+Tiempo (ms): 33
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 10_ascendente_D7_c
@@ -913,129 +203,114 @@ Algoritmo: Sort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10000000_ascendente_D1_b
-Algoritmo: MergeSort
-Tiempo (ms): 5805
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_ascendente_D1_b
-Algoritmo: QuickSort
-Tiempo (ms): 2406
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_ascendente_D1_b
-Algoritmo: Sort
-Tiempo (ms): 3750
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D1_a
-Algoritmo: MergeSort
-Tiempo (ms): 6333
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D1_a
-Algoritmo: QuickSort
-Tiempo (ms): 2613
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10000000_aleatorio_D1_a
-Algoritmo: Sort
-Tiempo (ms): 4104
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D1_c
+Dataset: 10_ascendente_D7_c
 Algoritmo: MergeSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_aleatorio_D1_c
+Dataset: 1000_descendente_D7_b
 Algoritmo: QuickSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_aleatorio_D1_c
+Dataset: 1000_descendente_D7_b
 Algoritmo: Sort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 100000_aleatorio_D1_b
-Algoritmo: MergeSort
-Tiempo (ms): 55
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D1_b
-Algoritmo: QuickSort
-Tiempo (ms): 21
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D1_b
-Algoritmo: Sort
-Tiempo (ms): 31
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 1000_aleatorio_D7_a
+Dataset: 1000_descendente_D7_b
 Algoritmo: MergeSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_aleatorio_D7_a
+Dataset: 10_descendente_D1_c
 Algoritmo: QuickSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_aleatorio_D7_a
+Dataset: 10_descendente_D1_c
 Algoritmo: Sort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10_descendente_D1_b
+Dataset: 10_descendente_D1_c
 Algoritmo: MergeSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_descendente_D1_b
-Algoritmo: QuickSort
-Tiempo (ms): 0
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 10_descendente_D1_b
-Algoritmo: Sort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 100000_aleatorio_D7_b
-Algoritmo: MergeSort
-Tiempo (ms): 110
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: 100000_aleatorio_D7_b
 Algoritmo: QuickSort
-Tiempo (ms): 30
+Tiempo (ms): 17
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 100000_aleatorio_D7_b
 Algoritmo: Sort
-Tiempo (ms): 38
+Tiempo (ms): 22
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10_descendente_D7_c
+Dataset: 100000_aleatorio_D7_b
 Algoritmo: MergeSort
-Tiempo (ms): 0
+Tiempo (ms): 40
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10_descendente_D7_c
+Dataset: 1000_ascendente_D1_b
 Algoritmo: QuickSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10_descendente_D7_c
+Dataset: 1000_ascendente_D1_b
 Algoritmo: Sort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 100000_ascendente_D1_b
+Dataset: 1000_ascendente_D1_b
 Algoritmo: MergeSort
-Tiempo (ms): 55
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_aleatorio_D1_a
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_aleatorio_D1_a
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_aleatorio_D1_a
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D1_c
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D1_c
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D1_c
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D7_a
+Algoritmo: QuickSort
+Tiempo (ms): 1110
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D7_a
+Algoritmo: Sort
+Tiempo (ms): 1574
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D7_a
+Algoritmo: MergeSort
+Tiempo (ms): 4031
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 100000_ascendente_D1_b
@@ -1045,10 +320,325 @@ Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 100000_ascendente_D1_b
 Algoritmo: Sort
-Tiempo (ms): 28
+Tiempo (ms): 15
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 10_descendente_D7_b
+Dataset: 100000_ascendente_D1_b
+Algoritmo: MergeSort
+Tiempo (ms): 47
+Memoria utilizada (KB): 388
+-----------------------------------
+Dataset: 10_aleatorio_D1_b
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D1_b
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D1_b
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D7_c
+Algoritmo: QuickSort
+Tiempo (ms): 2209
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D7_c
+Algoritmo: Sort
+Tiempo (ms): 2852
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D7_c
+Algoritmo: MergeSort
+Tiempo (ms): 5047
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_descendente_D7_c
+Algoritmo: QuickSort
+Tiempo (ms): 11
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_descendente_D7_c
+Algoritmo: Sort
+Tiempo (ms): 9
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_descendente_D7_c
+Algoritmo: MergeSort
+Tiempo (ms): 32
+Memoria utilizada (KB): 388
+-----------------------------------
+Dataset: 100000_ascendente_D1_a
+Algoritmo: QuickSort
+Tiempo (ms): 11
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_ascendente_D1_a
+Algoritmo: Sort
+Tiempo (ms): 13
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_ascendente_D1_a
+Algoritmo: MergeSort
+Tiempo (ms): 32
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_ascendente_D1_c
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_ascendente_D1_c
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_ascendente_D1_c
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D1_b
+Algoritmo: QuickSort
+Tiempo (ms): 1443
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D1_b
+Algoritmo: Sort
+Tiempo (ms): 1830
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D1_b
+Algoritmo: MergeSort
+Tiempo (ms): 3756
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D7_c
+Algoritmo: QuickSort
+Tiempo (ms): 1077
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D7_c
+Algoritmo: Sort
+Tiempo (ms): 1286
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D7_c
+Algoritmo: MergeSort
+Tiempo (ms): 4017
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D1_a
+Algoritmo: QuickSort
+Tiempo (ms): 1537
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D1_a
+Algoritmo: Sort
+Tiempo (ms): 1858
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D1_a
+Algoritmo: MergeSort
+Tiempo (ms): 4310
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D7_c
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D7_c
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D7_c
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D1_b
+Algoritmo: QuickSort
+Tiempo (ms): 15
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D1_b
+Algoritmo: Sort
+Tiempo (ms): 18
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D1_b
+Algoritmo: MergeSort
+Tiempo (ms): 41
+Memoria utilizada (KB): 388
+-----------------------------------
+Dataset: 1000_descendente_D1_b
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_descendente_D1_b
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_descendente_D1_b
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D7_b
+Algoritmo: QuickSort
+Tiempo (ms): 1108
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D7_b
+Algoritmo: Sort
+Tiempo (ms): 1563
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D7_b
+Algoritmo: MergeSort
+Tiempo (ms): 3800
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D1_b
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D1_b
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D1_b
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_descendente_D7_c
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_descendente_D7_c
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_descendente_D7_c
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D7_a
+Algoritmo: QuickSort
+Tiempo (ms): 17
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D7_a
+Algoritmo: Sort
+Tiempo (ms): 21
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D7_a
+Algoritmo: MergeSort
+Tiempo (ms): 41
+Memoria utilizada (KB): 388
+-----------------------------------
+Dataset: 10_aleatorio_D1_a
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D1_a
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D1_a
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_descendente_D1_b
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_descendente_D1_b
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_descendente_D1_b
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D7_a
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D7_a
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D7_a
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D1_c
+Algoritmo: QuickSort
+Tiempo (ms): 13
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D1_c
+Algoritmo: Sort
+Tiempo (ms): 16
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D1_c
+Algoritmo: MergeSort
+Tiempo (ms): 39
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_aleatorio_D7_b
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_aleatorio_D7_b
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_aleatorio_D7_b
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_aleatorio_D1_b
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_aleatorio_D1_b
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_aleatorio_D1_b
 Algoritmo: MergeSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
@@ -1063,18 +653,428 @@ Algoritmo: Sort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_descendente_D1_a
+Dataset: 10_descendente_D7_b
 Algoritmo: MergeSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_descendente_D1_a
+Dataset: 10000000_aleatorio_D1_b
+Algoritmo: QuickSort
+Tiempo (ms): 1667
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D1_b
+Algoritmo: Sort
+Tiempo (ms): 2189
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D1_b
+Algoritmo: MergeSort
+Tiempo (ms): 4486
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D1_a
+Algoritmo: QuickSort
+Tiempo (ms): 1649
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D1_a
+Algoritmo: Sort
+Tiempo (ms): 2124
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D1_a
+Algoritmo: MergeSort
+Tiempo (ms): 4476
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D7_a
+Algoritmo: QuickSort
+Tiempo (ms): 2398
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D7_a
+Algoritmo: Sort
+Tiempo (ms): 3022
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D7_a
+Algoritmo: MergeSort
+Tiempo (ms): 5166
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_ascendente_D1_a
 Algoritmo: QuickSort
 Tiempo (ms): 0
 Memoria utilizada (KB): 0
 -----------------------------------
-Dataset: 1000_descendente_D1_a
+Dataset: 1000_ascendente_D1_a
 Algoritmo: Sort
 Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_ascendente_D1_a
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D1_c
+Algoritmo: QuickSort
+Tiempo (ms): 1528
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D1_c
+Algoritmo: Sort
+Tiempo (ms): 1892
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D1_c
+Algoritmo: MergeSort
+Tiempo (ms): 3887
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D7_a
+Algoritmo: QuickSort
+Tiempo (ms): 1100
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D7_a
+Algoritmo: Sort
+Tiempo (ms): 1375
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D7_a
+Algoritmo: MergeSort
+Tiempo (ms): 4067
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D7_b
+Algoritmo: QuickSort
+Tiempo (ms): 2266
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D7_b
+Algoritmo: Sort
+Tiempo (ms): 3019
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D7_b
+Algoritmo: MergeSort
+Tiempo (ms): 5913
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_descendente_D1_c
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_descendente_D1_c
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_descendente_D1_c
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_aleatorio_D7_c
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_aleatorio_D7_c
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_aleatorio_D7_c
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_ascendente_D7_b
+Algoritmo: QuickSort
+Tiempo (ms): 10
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_ascendente_D7_b
+Algoritmo: Sort
+Tiempo (ms): 18
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_ascendente_D7_b
+Algoritmo: MergeSort
+Tiempo (ms): 38
+Memoria utilizada (KB): 388
+-----------------------------------
+Dataset: 100000_descendente_D1_c
+Algoritmo: QuickSort
+Tiempo (ms): 15
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_descendente_D1_c
+Algoritmo: Sort
+Tiempo (ms): 17
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_descendente_D1_c
+Algoritmo: MergeSort
+Tiempo (ms): 46
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_descendente_D1_a
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_descendente_D1_a
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_descendente_D1_a
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D1_a
+Algoritmo: QuickSort
+Tiempo (ms): 14
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D1_a
+Algoritmo: Sort
+Tiempo (ms): 19
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_aleatorio_D1_a
+Algoritmo: MergeSort
+Tiempo (ms): 42
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_ascendente_D7_b
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_ascendente_D7_b
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_ascendente_D7_b
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D1_a
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D1_a
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D1_a
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_ascendente_D7_a
+Algoritmo: QuickSort
+Tiempo (ms): 11
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_ascendente_D7_a
+Algoritmo: Sort
+Tiempo (ms): 13
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_ascendente_D7_a
+Algoritmo: MergeSort
+Tiempo (ms): 35
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D1_b
+Algoritmo: QuickSort
+Tiempo (ms): 1766
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D1_b
+Algoritmo: Sort
+Tiempo (ms): 2111
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D1_b
+Algoritmo: MergeSort
+Tiempo (ms): 4258
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D1_c
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D1_c
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D1_c
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D1_c
+Algoritmo: QuickSort
+Tiempo (ms): 1660
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D1_c
+Algoritmo: Sort
+Tiempo (ms): 2130
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D1_c
+Algoritmo: MergeSort
+Tiempo (ms): 4407
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D7_a
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D7_a
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D7_a
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D7_b
+Algoritmo: QuickSort
+Tiempo (ms): 1309
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D7_b
+Algoritmo: Sort
+Tiempo (ms): 1524
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_descendente_D7_b
+Algoritmo: MergeSort
+Tiempo (ms): 4441
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D7_b
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D7_b
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_ascendente_D7_b
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_ascendente_D7_a
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_ascendente_D7_a
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 1000_ascendente_D7_a
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D7_c
+Algoritmo: QuickSort
+Tiempo (ms): 1224
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D7_c
+Algoritmo: Sort
+Tiempo (ms): 1700
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_ascendente_D7_c
+Algoritmo: MergeSort
+Tiempo (ms): 4213
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D1_c
+Algoritmo: QuickSort
+Tiempo (ms): 1832
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D1_c
+Algoritmo: Sort
+Tiempo (ms): 2417
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10000000_aleatorio_D1_c
+Algoritmo: MergeSort
+Tiempo (ms): 4905
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_ascendente_D7_c
+Algoritmo: QuickSort
+Tiempo (ms): 10
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_ascendente_D7_c
+Algoritmo: Sort
+Tiempo (ms): 14
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_ascendente_D7_c
+Algoritmo: MergeSort
+Tiempo (ms): 37
+Memoria utilizada (KB): 388
+-----------------------------------
+Dataset: 10_aleatorio_D7_b
+Algoritmo: QuickSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D7_b
+Algoritmo: Sort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 10_aleatorio_D7_b
+Algoritmo: MergeSort
+Tiempo (ms): 0
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_descendente_D1_a
+Algoritmo: QuickSort
+Tiempo (ms): 13
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_descendente_D1_a
+Algoritmo: Sort
+Tiempo (ms): 22
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: 100000_descendente_D1_a
+Algoritmo: MergeSort
+Tiempo (ms): 37
 Memoria utilizada (KB): 0
 -----------------------------------

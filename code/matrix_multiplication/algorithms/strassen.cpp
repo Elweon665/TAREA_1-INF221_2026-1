@@ -1,3 +1,7 @@
+/*Fuentes de informacion:
+-Strassen's algorithm: https://rosettacode.org/wiki/Strassen%27s_algorithm#C++
+-Ideas de Gemini www.gemini.google.com*/
+
 #include <bits/stdc++.h>
 #include <cmath>     
 #include <iomanip>  
@@ -5,6 +9,10 @@
 #include "matrix.h"
 using namespace std;
 
+//Strassen's algorithm
+//Ideas de Gemini
+//Para todo este codigo se tomo en un 98% el codigo de la primera fuente, pues era bastante funcional
+//Y gemini se usó para corregir un bug que aumentaba el tiempo de ejecucion y un par de adaptacion en base a mi contexto.
 Matrix::Matrix(const std::vector<std::vector<double>>& data) : data(data) {
     rows = data.size();
     cols = (rows > 0) ? data[0].size() : 0;
@@ -72,7 +80,7 @@ Matrix Matrix::operator*(const Matrix& other) const {
     for (size_t i = 0; i < rows; ++i) {
         for (size_t j = 0; j < other.cols; ++j) {
             double sum = 0.0;
-            for (size_t k = 0; k < other.rows; ++k) { // <- 'other.rows' es la clave
+            for (size_t k = 0; k < other.rows; ++k) {
                 sum += data[i][k] * other.data[k][j];
             }
             result_data[i][j] = sum;
@@ -181,18 +189,16 @@ Matrix Matrix::fromQuarters(const std::array<Matrix, 4>& q) {
     return Matrix(m_data);
 }
 
-/*Matrix Matrix::strassen(const Matrix& other) const {
+
+Matrix Matrix::strassen(const Matrix& other) const {
     validateSquarePowerOfTwo();
     other.validateSquarePowerOfTwo();
-    if (getRows() != other.getRows() || getCols() != other.getCols()) {
-        throw std::runtime_error("Matrices must be square and of equal size for Strassen multiplication.");
-    }
+    if (getRows() != other.getRows() || getCols() != other.getCols())
+        throw std::runtime_error("Matrices must be square and of equal size.");
 
     if (getRows() == 1) {
-        double valor_multiplicado = data * other.data;
-        
-        // 2. Retornamos una nueva Matriz construyéndola con llaves (mucho más legible)
-        return Matrix({{valor_multiplicado}});
+        std::vector<std::vector<double>> res = {{data[0][0] * other.data[0][0]}};
+        return Matrix(res);
     }
 
     auto qa = toQuarters();
@@ -207,66 +213,11 @@ Matrix Matrix::fromQuarters(const std::array<Matrix, 4>& q) {
     Matrix p7 = (qa[2] + qa[3]).strassen(qb[0]);
 
     std::array<Matrix, 4> q = {
-        Matrix(std::vector<std::vector<double>>(qa[0].getRows(), std::vector<double>(qa[0].getCols(), 0.0))),
-        Matrix(std::vector<std::vector<double>>(qa[0].getRows(), std::vector<double>(qa[0].getCols(), 0.0))),
-        Matrix(std::vector<std::vector<double>>(qa[0].getRows(), std::vector<double>(qa[0].getCols(), 0.0))),
-        Matrix(std::vector<std::vector<double>>(qa[0].getRows(), std::vector<double>(qa[0].getCols(), 0.0)))
+        p1 + p2 - p4 + p6,
+        p4 + p5,
+        p6 + p7,
+        p2 - p3 + p5 - p7
     };
-
-    q[0] = p1 + p2 - p4 + p6;
-    q[1] = p4 + p5;
-    q[2] = p6 + p7;
-    q[3] = p2 - p3 + p5 - p7;
-
-    return Matrix::fromQuarters(q);
-}*/
-
-Matrix Matrix::strassen(const Matrix& other) const {
-    validateSquarePowerOfTwo();
-    other.validateSquarePowerOfTwo();
-    if (getRows() != other.getRows() || getCols() != other.getCols()) {
-        throw std::runtime_error("Matrices must be square and of equal size for Strassen multiplication.");
-    }
-
-    // 1. CASO BASE OPTIMIZADO A PRUEBA DE ERRORES DE COMPILACIÓN
-    if (getRows() == 1) {
-        // Creamos un vector 2D de 1x1 inicializado en 0 explícitamente
-        std::vector<std::vector<double>> res(1, std::vector<double>(1, 0.0));
-        // Multiplicamos los doubles extrayéndolos con
-        res = data * other.data;
-        // Retornamos la matriz
-        return Matrix(res);
-    }
-
-    auto qa = toQuarters();
-    auto qb = other.toQuarters();
-
-    Matrix p1 = (qa - qa).strassen(qb + qb);
-    Matrix p2 = (qa + qa).strassen(qb + qb);
-    Matrix p3 = (qa - qa).strassen(qb + qb);
-    Matrix p4 = (qa + qa).strassen(qb);
-    Matrix p5 = qa.strassen(qb - qb);
-    Matrix p6 = qa.strassen(qb - qb);
-    Matrix p7 = (qa + qa).strassen(qb);
-
-    std::array<Matrix, 4> q = {
-        Matrix(std::vector<std::vector<double>>(qa.getRows(), std::vector<double>(qa.getCols(), 0.0))),
-        Matrix(std::vector<std::vector<double>>(qa.getRows(), std::vector<double>(qa.getCols(), 0.0))),
-        Matrix(std::vector<std::vector<double>>(qa.getRows(), std::vector<double>(qa.getCols(), 0.0))),
-        Matrix(std::vector<std::vector<double>>(qa.getRows(), std::vector<double>(qa.getCols(), 0.0)))
-    };
-
-    // 2. OPTIMIZACIÓN DE MEMORIA: Suma directa elemento por elemento
-    // (Esto evita que la matriz de 1024x1024 se quede colgada)
-    size_t sub_n = qa.getRows();
-    for (size_t i = 0; i < sub_n; ++i) {
-        for (size_t j = 0; j < sub_n; ++j) {
-            q.data[i][j] = p1.data[i][j] + p2.data[i][j] - p4.data[i][j] + p6.data[i][j];
-            q.data[i][j] = p4.data[i][j] + p5.data[i][j];
-            q.data[i][j] = p6.data[i][j] + p7.data[i][j];
-            q.data[i][j] = p2.data[i][j] - p3.data[i][j] + p5.data[i][j] - p7.data[i][j];
-        }
-    }
 
     return Matrix::fromQuarters(q);
 }

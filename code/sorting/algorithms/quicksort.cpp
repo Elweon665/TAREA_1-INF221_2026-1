@@ -1,8 +1,18 @@
+/*Fuentes de informacion:
+-Welcome to Quick Sort in C++ https://codesignal.com/learn/courses/sorting-and-searching-algorithms-in-cpp/lessons/exploring-quick-sort-in-cpp
+-C++ Program for Quick Sort https://www.geeksforgeeks.org/cpp/cpp-program-for-quicksort/
+-How to generate a random number in C++? https://stackoverflow.com/questions/13445688/how-to-generate-a-random-number-in-c
+*/
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
 using namespace std::chrono;
-
+//-Welcome to Quick Sort in C++ https://codesignal.com/learn/courses/sorting-and-searching-algorithms-in-cpp/lessons/exploring-quick-sort-in-cpp
+//-C++ Program for Quick Sort https://www.geeksforgeeks.org/cpp/cpp-program-for-quicksort/
+//-How to generate a random number in C++? https://stackoverflow.com/questions/13445688/how-to-generate-a-random-number-in-c
+//En todo el codigo se realizó una mezcla entre ambos codigos y el codigo de aleatoriedad, junto con algunas modificacioens.
 int partition(vector<int> &vec, int low, int high) {
 
     static random_device rd;

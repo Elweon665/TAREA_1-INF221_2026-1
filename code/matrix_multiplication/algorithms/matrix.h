@@ -1,3 +1,8 @@
+/* Fuentes de informacion:
+-Header Files in C++ https://www.geeksforgeeks.org/cpp/header-files-in-c-c-with-examples/
+-Ideas de Gemini www.gemini.google.com*/
+
+//Header Files in C++
 #ifndef MATRIX_H
 #define MATRIX_H
 
@@ -10,6 +15,8 @@ std::vector<std::vector<int>> naive(
     const std::vector<std::vector<int>>& A,
     const std::vector<std::vector<int>>& B);
 
+//Header Files in C++
+//Ideas de Gemini
 class Matrix {
 public:
     std::vector<std::vector<double>> data;
