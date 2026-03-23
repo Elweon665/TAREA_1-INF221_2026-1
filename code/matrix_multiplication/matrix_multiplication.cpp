@@ -1,3 +1,14 @@
+/*Fuentes de informacion:
+-C++ Files and Streams https://www.tutorialspoint.com/cplusplus/cpp_files_streams.htm
+-How to Measure Memory Usage in C++ https://mrswolf.github.io/memory-usage-cpp/
+-Using getline() with the file input in C++ https://stackoverflow.com/questions/20739453/using-getline-with-file-input-in-c
+-Getline en C++ - Ejemplo con función getline() https://www.freecodecamp.org/espanol/news/getline-en-c-ejemplo-con-funcion-getline/
+-getrusage(2) — Linux manual page https://man7.org/linux/man-pages/man2/getrusage.2.html
+-Ideas de gemini www.gemini.google.com
+-The /proc Filesystem https://www.kernel.org/doc/html/latest/filesystems/proc.html
+-std::filesystem::path https://en.cppreference.com/w/cpp/filesystem/path.html*/
+
+
 #include <bits/stdc++.h>
 #include <filesystem>
 #include <chrono>
@@ -8,6 +19,8 @@ using namespace std;
 using namespace std::chrono;
 namespace fs = std::filesystem;
 
+//C++ Files and Streams https://www.tutorialspoint.com/cplusplus/cpp_files_streams.htm
+//Ciertas ideas del codigo fueron tomados de aqui
 void writeMatrixToFile(const vector<vector<int>>& matriz, const string& nombre_de_archivo){
     ofstream file(nombre_de_archivo);
     for(const auto& fila : matriz){
@@ -17,7 +30,9 @@ void writeMatrixToFile(const vector<vector<int>>& matriz, const string& nombre_d
         file << "\n"; 
     }
 }
-
+//How to Measure Memory Usage in C++
+//getrusage(2) — Linux manual page
+//Ideas de gemini
 int get_MemoryUsage(){
     struct rusage usage;
     int ret;
@@ -25,6 +40,9 @@ int get_MemoryUsage(){
     return usage.ru_maxrss;
 }
 
+//-C++ Files and Streams
+//Using getline() with the file input in C++
+//Se cominaron ambas fuentes ppara la funcion.
 vector<vector<int>> Leer_matriz(const string& filepath){
     ifstream file(filepath);
     if(!file.is_open()){
@@ -45,6 +63,10 @@ vector<vector<int>> Leer_matriz(const string& filepath){
     }
     return matriz;
 }
+
+//-C++ Files and Streams
+//Using getline() with the file input in C++
+//Ideas de Gemini
 
 void realizar_mediciones(function<vector<vector<int>>()> matrixAlgorithm, const string& algoName, const string& datasetName){
     int memoria_inicial = get_MemoryUsage();
@@ -75,6 +97,11 @@ void realizar_mediciones(function<vector<vector<int>>()> matrixAlgorithm, const 
     string sortedFilename = "data/matrix_output/" + algoName + "_" + datasetName + "_result.txt";
     writeMatrixToFile(resultado, sortedFilename);
 }
+
+//-C++ Files and Streams
+//Using getline() with the file input in C++
+//Ideas de Gemini
+//std::filesystem::path
 
 int main(){
     string directorio_entrada = "data/matrix_input";

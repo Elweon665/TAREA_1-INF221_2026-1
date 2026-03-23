@@ -1,3 +1,11 @@
+'''Fuentes de informacion:
+-Graph Plotting in Python | Set 1 https://www.geeksforgeeks.org/python/graph-plotting-in-python-set-1/
+-Pyplot tutorial https://matplotlib.org/stable/tutorials/pyplot.html
+-Python RegEx https://www.w3schools.com/python/python_regex.asp
+-Reading a File in Python https://www.geeksforgeeks.org/python/how-to-read-from-a-file-in-python/
+-Ideas de Gemini www.gemini.google.com
+'''
+
 import os
 import re
 import pandas as pd
@@ -7,6 +15,9 @@ import matplotlib.pyplot as plt
 entrada = "../data/measurements/resultados_generales.txt"
 salida = "../data/plots"
 
+#Reading a File in Python
+#Python RegEx
+#Ideas de Gemini
 def extraer_datos(archivo):
     datos = []
     registro_actual = {}
@@ -41,6 +52,9 @@ def extraer_datos(archivo):
             
     return pd.DataFrame(datos)
 
+#Graph Plotting in Python | Set 1
+#Pyplot tutorial
+#Ideas de Gemini
 def generar_graficos():
     os.makedirs(salida, exist_ok=True)
     df = extraer_datos(entrada)
