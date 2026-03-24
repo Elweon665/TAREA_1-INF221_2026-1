@@ -13,3 +13,62 @@ Escoja las gráficas más representativas y que muestren de manera clara los res
 \begin{mdframed}
     Recuerde que es imprescindible que se pueda replicar la generación de las gráficas, por lo que usted debe referir a las figuras generadas en `code/matrix\_multiplication/data/plots/` y `code/sorting/data/plots/`.
 \end{mdframed}
+
+Estos son los resultados de estos experimentos en cuestion\\
+
+Empezaremos mostrando los resultados de los algoritmos de ordenamiento de arreglos (Sort, MergeSort y QuickSort)
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../code/sorting/data/plots/memoria_aleatorio.png}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../code/sorting/data/plots/tiempo_aleatorio.png}
+    \end{minipage}%
+    \caption{Comparación del tiempo de ejecución y tiempos de ejecucion de arreglos aleatorios por cada algoritmo}
+    \label{fig:grafico_aleatorio}
+\end{figure}
+
+Para este caso observamos que en memoria pasa un caso extraño, puesto a que los arreglos de 100000 presentaron el mayor consumo de memoria en MergeSort en vez de que los arreglos de mayor tamaño sean quienes lo presenten, es probable que se deba a la gestion de memoria del sistema operativo según lo investigado (Ver bibliografia)
+
+En el caso de Quicksort presenciamos un fenomeno similar, pero a menor escala y en arreglos de 10000, mientras que en sort observamos que no presenta un consumo de memoria para nada notorio por la forma en el que este algoritmo opera.
+
+En cuanto a tiempos, todos los algoritmos resultaron ser rapidos en arreglos de hasta 100000, pero cuando llegamos al tamaño maximo en el dataset estos escalan notoriamente, siendo mergesort el más tardio de los 3 en promedio de todos los casos, y con una diferencia notoria.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../code/sorting/data/plots/memoria_ascendente.png}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../code/sorting/data/plots/tiempo_ascendente.png}
+    \end{minipage}%
+    \caption{Comparación del tiempo de ejecución y tiempos de ejecucion de arreglos ascendentes por cada algoritmo}
+    \label{fig:grafico_ascendente}
+\end{figure}
+
+En lo que respecta al consumo de memoria observamos un escenario más "común", pues como se espera los arreglos de tamaño maximo presentan el mayor consumo de memoria para el caso del algoritmo MergeSort, es apreciable como el consumo de memoria se dispara entre los arreglos de 100000 y 10000000
+
+En el caso de los otros algoritmos, estos mantienen un consumo bajo de memoria dado el enfoque de los mismos, por lo que se esperaba que MergeSort fuera el que "destacará" en este aspecto.
+
+En cuanto al tiempo de ejecucion, el escenario es muy parecido al caso anterior con la diferencia de que en todos los algoritmos el tiempo es menor que en el caso aleatorio, por lo que se puede inferir que los algoritmos son más "eficientes" cuando los arreglos vienen desordenados de esa forma.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../code/sorting/data/plots/memoria_descendente.png}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../code/sorting/data/plots/tiempo_descendente.png}
+    \end{minipage}%
+    \caption{Comparación del tiempo de ejecución y tiempos de ejecucion de arreglos descendentes por cada algoritmo}
+    \label{fig:grafico_descendente}
+\end{figure}
+
+En el consumo de memoria tenemos un escenario parecido que en el caso de los arreglos aleatorios, pues MergeSort poseé tambien un mayor consumo de memoria en arreglos de 100000 y no en los de maximo tamaño, probablemte al motivo explicado anteriormente. Por otra parte, QuickSort y Sort no presentam un consumo notorio en este caso.
+
+En los tiempos observamos un escenario parecido que en los arreglos ascendentes, tiempos menores que con los arreglos aleatorios, por lo que una vez más esta reduccion pueda deberse a la forma en el que los arreglos estaban desordenados.
+
+
+
