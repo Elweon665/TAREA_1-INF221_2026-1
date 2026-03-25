@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.23)  23 MAR 2026 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.23)  25 MAR 2026 00:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1538,56 +1538,86 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-) (./sections/experiment_results.tex [1{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}
+) (./sections/experiment_results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+[1{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ]
-Package mdframed Info: Not enough space on this page on input line 3.
-
-Overfull \hbox (37.52094pt too wide) in paragraph at lines 14--15
-\T1/futs/m/n/10.95 de-be re-fe-rir a las fi-gu-ras ge-ne-ra-das en `co-de/matrix_multiplication/data/plots/` y `co-de/sorting/data/plots/`. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
 <../code/sorting/data/plots/memoria_aleatorio.png, id=27, 722.7pt x 433.62pt>
 File: ../code/sorting/data/plots/memoria_aleatorio.png Graphic file (type png)
 <use ../code/sorting/data/plots/memoria_aleatorio.png>
-Package pdftex.def Info: ../code/sorting/data/plots/memoria_aleatorio.png  used on input line 24.
+Package pdftex.def Info: ../code/sorting/data/plots/memoria_aleatorio.png  used on input line 8.
 (pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
 <../code/sorting/data/plots/tiempo_aleatorio.png, id=29, 722.7pt x 433.62pt>
 File: ../code/sorting/data/plots/tiempo_aleatorio.png Graphic file (type png)
 <use ../code/sorting/data/plots/tiempo_aleatorio.png>
-Package pdftex.def Info: ../code/sorting/data/plots/tiempo_aleatorio.png  used on input line 27.
+Package pdftex.def Info: ../code/sorting/data/plots/tiempo_aleatorio.png  used on input line 11.
 (pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
 <../code/sorting/data/plots/memoria_ascendente.png, id=30, 722.7pt x 433.62pt>
 File: ../code/sorting/data/plots/memoria_ascendente.png Graphic file (type png)
 <use ../code/sorting/data/plots/memoria_ascendente.png>
-Package pdftex.def Info: ../code/sorting/data/plots/memoria_ascendente.png  used on input line 42.
+Package pdftex.def Info: ../code/sorting/data/plots/memoria_ascendente.png  used on input line 26.
 (pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
 <../code/sorting/data/plots/tiempo_ascendente.png, id=31, 722.7pt x 433.62pt>
 File: ../code/sorting/data/plots/tiempo_ascendente.png Graphic file (type png)
 <use ../code/sorting/data/plots/tiempo_ascendente.png>
-Package pdftex.def Info: ../code/sorting/data/plots/tiempo_ascendente.png  used on input line 45.
+Package pdftex.def Info: ../code/sorting/data/plots/tiempo_ascendente.png  used on input line 29.
 (pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
-[2 <../code/sorting/data/plots/memoria_aleatorio.png> <../code/sorting/data/plots/tiempo_aleatorio.png>]
-<../code/sorting/data/plots/memoria_descendente.png, id=39, 722.7pt x 433.62pt>
+ [2 <../code/sorting/data/plots/memoria_aleatorio.png> <../code/sorting/data/plots/tiempo_aleatorio.png> <../code/sorting/data/plots/memoria_ascendente.png> <../code/sorting/data/plots/tiempo_ascendente.png>]
+<../code/sorting/data/plots/memoria_descendente.png, id=42, 722.7pt x 433.62pt>
 File: ../code/sorting/data/plots/memoria_descendente.png Graphic file (type png)
 <use ../code/sorting/data/plots/memoria_descendente.png>
-Package pdftex.def Info: ../code/sorting/data/plots/memoria_descendente.png  used on input line 60.
+Package pdftex.def Info: ../code/sorting/data/plots/memoria_descendente.png  used on input line 44.
 (pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
-<../code/sorting/data/plots/tiempo_descendente.png, id=40, 722.7pt x 433.62pt>
+<../code/sorting/data/plots/tiempo_descendente.png, id=43, 722.7pt x 433.62pt>
 File: ../code/sorting/data/plots/tiempo_descendente.png Graphic file (type png)
 <use ../code/sorting/data/plots/tiempo_descendente.png>
-Package pdftex.def Info: ../code/sorting/data/plots/tiempo_descendente.png  used on input line 63.
+Package pdftex.def Info: ../code/sorting/data/plots/tiempo_descendente.png  used on input line 47.
 (pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
-) [3 <../code/sorting/data/plots/memoria_ascendente.png> <../code/sorting/data/plots/tiempo_ascendente.png> <../code/sorting/data/plots/memoria_descendente.png> <../code/sorting/data/plots/tiempo_descendente.png>] (./sections/conclusions.tex)
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+<../code/matrix_multiplication/data/plots/memoria_densa.png, id=44, 722.7pt x 433.62pt>
+File: ../code/matrix_multiplication/data/plots/memoria_densa.png Graphic file (type png)
+<use ../code/matrix_multiplication/data/plots/memoria_densa.png>
+Package pdftex.def Info: ../code/matrix_multiplication/data/plots/memoria_densa.png  used on input line 62.
+(pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
+<../code/matrix_multiplication/data/plots/tiempo_densa.png, id=45, 722.7pt x 433.62pt>
+File: ../code/matrix_multiplication/data/plots/tiempo_densa.png Graphic file (type png)
+<use ../code/matrix_multiplication/data/plots/tiempo_densa.png>
+Package pdftex.def Info: ../code/matrix_multiplication/data/plots/tiempo_densa.png  used on input line 65.
+(pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
+[3 <../code/sorting/data/plots/memoria_descendente.png> <../code/sorting/data/plots/tiempo_descendente.png>]
+<../code/matrix_multiplication/data/plots/memoria_diagonal.png, id=53, 722.7pt x 433.62pt>
+File: ../code/matrix_multiplication/data/plots/memoria_diagonal.png Graphic file (type png)
+<use ../code/matrix_multiplication/data/plots/memoria_diagonal.png>
+Package pdftex.def Info: ../code/matrix_multiplication/data/plots/memoria_diagonal.png  used on input line 80.
+(pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
+<../code/matrix_multiplication/data/plots/tiempo_diagonal.png, id=54, 722.7pt x 433.62pt>
+File: ../code/matrix_multiplication/data/plots/tiempo_diagonal.png Graphic file (type png)
+<use ../code/matrix_multiplication/data/plots/tiempo_diagonal.png>
+Package pdftex.def Info: ../code/matrix_multiplication/data/plots/tiempo_diagonal.png  used on input line 83.
+(pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
+<../code/matrix_multiplication/data/plots/memoria_dispersa.png, id=55, 722.7pt x 433.62pt>
+File: ../code/matrix_multiplication/data/plots/memoria_dispersa.png Graphic file (type png)
+<use ../code/matrix_multiplication/data/plots/memoria_dispersa.png>
+Package pdftex.def Info: ../code/matrix_multiplication/data/plots/memoria_dispersa.png  used on input line 95.
+(pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
+<../code/matrix_multiplication/data/plots/tiempo_dispersa.png, id=56, 722.7pt x 433.62pt>
+File: ../code/matrix_multiplication/data/plots/tiempo_dispersa.png Graphic file (type png)
+<use ../code/matrix_multiplication/data/plots/tiempo_dispersa.png>
+Package pdftex.def Info: ../code/matrix_multiplication/data/plots/tiempo_dispersa.png  used on input line 98.
+(pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
+ [4 <../code/matrix_multiplication/data/plots/memoria_densa.png> <../code/matrix_multiplication/data/plots/tiempo_densa.png> <../code/matrix_multiplication/data/plots/memoria_diagonal.png> <../code/matrix_multiplication/data/plots/tiempo_diagonal.png>]) (./sections/conclusions.tex)
 
 LaTeX Warning: Empty bibliography on input line 55.
 
-[4] (./report.aux
+[5 <../code/matrix_multiplication/data/plots/memoria_dispersa.png> <../code/matrix_multiplication/data/plots/tiempo_dispersa.png>] (./report.aux
 LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
@@ -1604,18 +1634,18 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55602 strings out of 467525
- 1267159 string characters out of 5418988
- 2260255 words of memory out of 5000000
- 83697 multiletter control sequences out of 15000+600000
- 696555 words of font info for 94 fonts, out of 8000000 for 9000
+ 55650 strings out of 467525
+ 1270051 string characters out of 5418988
+ 2257738 words of memory out of 5000000
+ 83743 multiletter control sequences out of 15000+600000
+ 692025 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,11n,107p,7212b,2142s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,12n,107p,7212b,2142s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on report.pdf (4 pages, 929822 bytes).
+Output written on report.pdf (5 pages, 1787709 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 95 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

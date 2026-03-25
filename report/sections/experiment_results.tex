@@ -1,19 +1,3 @@
-\begin{mdframed}
-    \textbf{La extensión máxima para esta sección es de 4 páginas.} Si utiliza menos páginas y explica bien sus resultados, es preferible.
-\end{mdframed}
-
-Presente sus resultados mediante \textbf{tablas y gráficos}. Cada tabla o gráfico debe estar referenciado en el texto, con una breve descripción de lo que se observa y por qué es relevante.
-
-\textbf{Es necesario automatizar la generación de las gráficas}, ya que es imprescindible que se pueda confirmar que las visualizaciones presentadas son producto de los datos generados por sus algoritmos.
-
-Escoja las gráficas más representativas y que muestren de manera clara los resultados obtenidos. Esta elección es parte de lo que se evaluará en la sección de presentación de resultados.
-
-
-
-\begin{mdframed}
-    Recuerde que es imprescindible que se pueda replicar la generación de las gráficas, por lo que usted debe referir a las figuras generadas en `code/matrix\_multiplication/data/plots/` y `code/sorting/data/plots/`.
-\end{mdframed}
-
 Estos son los resultados de estos experimentos en cuestion\\
 
 Empezaremos mostrando los resultados de los algoritmos de ordenamiento de arreglos (Sort, MergeSort y QuickSort)
@@ -26,7 +10,7 @@ Empezaremos mostrando los resultados de los algoritmos de ordenamiento de arregl
     \begin{minipage}[t]{0.5\textwidth}
         \includegraphics[width=\textwidth]{../code/sorting/data/plots/tiempo_aleatorio.png}
     \end{minipage}%
-    \caption{Comparación del tiempo de ejecución y tiempos de ejecucion de arreglos aleatorios por cada algoritmo}
+    \caption{Comparación del tiempo de ejecución y consumo de memoria de arreglos aleatorios por cada algoritmo}
     \label{fig:grafico_aleatorio}
 \end{figure}
 
@@ -44,7 +28,7 @@ En cuanto a tiempos, todos los algoritmos resultaron ser rapidos en arreglos de 
     \begin{minipage}[t]{0.5\textwidth}
         \includegraphics[width=\textwidth]{../code/sorting/data/plots/tiempo_ascendente.png}
     \end{minipage}%
-    \caption{Comparación del tiempo de ejecución y tiempos de ejecucion de arreglos ascendentes por cada algoritmo}
+    \caption{Comparación del tiempo de ejecución y consumo de memoria de arreglos ascendentes por cada algoritmo}
     \label{fig:grafico_ascendente}
 \end{figure}
 
@@ -62,13 +46,63 @@ En cuanto al tiempo de ejecucion, el escenario es muy parecido al caso anterior 
     \begin{minipage}[t]{0.5\textwidth}
         \includegraphics[width=\textwidth]{../code/sorting/data/plots/tiempo_descendente.png}
     \end{minipage}%
-    \caption{Comparación del tiempo de ejecución y tiempos de ejecucion de arreglos descendentes por cada algoritmo}
+    \caption{Comparación del tiempo de ejecución y consumo de memoria de arreglos descendentes por cada algoritmo}
     \label{fig:grafico_descendente}
 \end{figure}
 
 En el consumo de memoria tenemos un escenario parecido que en el caso de los arreglos aleatorios, pues MergeSort poseé tambien un mayor consumo de memoria en arreglos de 100000 y no en los de maximo tamaño, probablemte al motivo explicado anteriormente. Por otra parte, QuickSort y Sort no presentam un consumo notorio en este caso.
 
-En los tiempos observamos un escenario parecido que en los arreglos ascendentes, tiempos menores que con los arreglos aleatorios, por lo que una vez más esta reduccion pueda deberse a la forma en el que los arreglos estaban desordenados.
+En los tiempos observamos un escenario parecido que en los arreglos ascendentes, tiempos menores que con los arreglos aleatorios, por lo que una vez más esta reduccion pueda deberse a la forma en el que los arreglos estaban desordenados.\\
 
+Pasando a los algoritmos de multiplicacion de matrices, obtuvimos los siguientes resultados:
 
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../code/matrix_multiplication/data/plots/memoria_densa.png}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../code/matrix_multiplication/data/plots/tiempo_densa.png}
+    \end{minipage}%
+    \caption{Comparación del tiempo de ejecución y consumo de memoria de matrices densas por cada algoritmo}
+    \label{fig:grafico_denso}
+\end{figure}
+
+Como podemos observar en priumera instancia en las matrices densas, el consumo de memoria de straseen es mayor independiente del tamaño de la matriz, esto debido a su enfoque de llamadas recursivas el cual aumenta el consumo de esta misma de forma significativa
+
+En cambio naive, al ser un algoritmo de bucles y no recurrir a llamadas recursivas hace que su consumo de memoria sea muy inferior (Al menos para los tamaños tratados en este experimento)
+
+En cuanto a tiempos de ejecucion, nos encontramos con que naive tambien presenta menores tiempos que strassen, incluso en las matrices de 1024x1024, esto se debe a que Strssen es generalmente mejor cuando se trata de matrices muy grandes, de ahí que naive sea más "apto" para los tamaños tratados aquí.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../code/matrix_multiplication/data/plots/memoria_diagonal.png}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../code/matrix_multiplication/data/plots/tiempo_diagonal.png}
+    \end{minipage}%
+    \caption{Comparación del tiempo de ejecución y consumo de memoria de matrices diagonales por cada algoritmo}
+    \label{fig:grafico_diagonal}
+\end{figure}
+
+Podemos notar que la tendencia se mantiene, strassen en matrices diagonales sigue presentando mayores tiempos de ejecucion y memoria que Naive, sin mencionar que acá 
+fue donde Strassen presentó el mayor consumo de memoria promedio probablemente por el enfoque de las matrices en cuestion, aunque los tiempos promedio de ambos algoritmos por tamaño se mantienen similares a los de las matrices densas.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}[t]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../code/matrix_multiplication/data/plots/memoria_dispersa.png}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\textwidth}
+        \includegraphics[width=\textwidth]{../code/matrix_multiplication/data/plots/tiempo_dispersa.png}
+    \end{minipage}%
+    \caption{Comparación del tiempo de ejecución y consumo de memoria de matrices dispersas por cada algoritmo}
+    \label{fig:grafico_dispersa}
+\end{figure}
+
+Acá se aprecia que el consumo de memoria en strassen se dispara considerablemente apartir de las matrices de 256x256, muy probablemente al "orden" de estas mismas y que en promedio son capaces de ocupar más espacio de memoria de lo usual a partir de un tamaño más pequeño.
+Naive mantiene la tendencia de bajo consumo de memoria.
+
+Y en cuanto a los tiempos de ejecucion, se mantienen con un promedio similar por tamaño según los graficos y comparado con los otros tipos de matrices.
 

@@ -21,7 +21,7 @@ Memoria utilizada (KB): 0
 Dataset: 256_dispersa_D0_b
 Algoritmo: Naive
 Tiempo (ms): 134
-Memoria utilizada (KB): 256
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 256_dispersa_D0_b
 Algoritmo: Strassen
@@ -136,7 +136,7 @@ Memoria utilizada (KB): 0
 Dataset: 256_densa_D10_c
 Algoritmo: Strassen
 Tiempo (ms): 17338
-Memoria utilizada (KB): 43
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 64_densa_D0_a
 Algoritmo: Naive
@@ -166,7 +166,7 @@ Memoria utilizada (KB): 0
 Dataset: 256_diagonal_D10_b
 Algoritmo: Strassen
 Tiempo (ms): 17271
-Memoria utilizada (KB): 50
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 256_densa_D10_b
 Algoritmo: Naive
@@ -176,7 +176,7 @@ Memoria utilizada (KB): 0
 Dataset: 256_densa_D10_b
 Algoritmo: Strassen
 Tiempo (ms): 17354
-Memoria utilizada (KB): 33
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 16_dispersa_D10_b
 Algoritmo: Naive
@@ -216,7 +216,7 @@ Memoria utilizada (KB): 0
 Dataset: 1024_diagonal_D10_c
 Algoritmo: Strassen
 Tiempo (ms): 858487
-Memoria utilizada (KB): 43089
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 16_diagonal_D10_c
 Algoritmo: Naive
@@ -281,7 +281,7 @@ Memoria utilizada (KB): 0
 Dataset: 1024_dispersa_D10_a
 Algoritmo: Naive
 Tiempo (ms): 8542
-Memoria utilizada (KB): 20670
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 1024_dispersa_D10_a
 Algoritmo: Strassen
@@ -326,7 +326,7 @@ Memoria utilizada (KB): 100
 Dataset: 1024_dispersa_D0_c
 Algoritmo: Strassen
 Tiempo (ms): 847718
-Memoria utilizada (KB): 3509
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 16_dispersa_D0_a
 Algoritmo: Naive
@@ -356,7 +356,7 @@ Memoria utilizada (KB): 0
 Dataset: 1024_dispersa_D10_c
 Algoritmo: Strassen
 Tiempo (ms): 845467
-Memoria utilizada (KB): 43980
+Memoria utilizada (KB): 4096
 -----------------------------------
 Dataset: 64_dispersa_D0_b
 Algoritmo: Naive
@@ -376,7 +376,7 @@ Memoria utilizada (KB): 0
 Dataset: 1024_dispersa_D10_b
 Algoritmo: Strassen
 Tiempo (ms): 853697
-Memoria utilizada (KB): 24598
+Memoria utilizada (KB): 100
 -----------------------------------
 Dataset: 256_diagonal_D10_c
 Algoritmo: Naive
@@ -396,7 +396,7 @@ Memoria utilizada (KB): 0
 Dataset: 1024_densa_D0_a
 Algoritmo: Strassen
 Tiempo (ms): 854802
-Memoria utilizada (KB): 1274
+Memoria utilizada (KB): 338
 -----------------------------------
 Dataset: 64_dispersa_D10_a
 Algoritmo: Naive
@@ -446,7 +446,7 @@ Memoria utilizada (KB): 100
 Dataset: 1024_diagonal_D0_a
 Algoritmo: Strassen
 Tiempo (ms): 855295
-Memoria utilizada (KB): 4356
+Memoria utilizada (KB): 100
 -----------------------------------
 Dataset: 16_dispersa_D10_a
 Algoritmo: Naive
@@ -516,7 +516,7 @@ Memoria utilizada (KB): 24
 Dataset: 1024_densa_D0_c
 Algoritmo: Strassen
 Tiempo (ms): 859638
-Memoria utilizada (KB): 232
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 64_densa_D0_c
 Algoritmo: Naive
@@ -551,12 +551,12 @@ Memoria utilizada (KB): 0
 Dataset: 1024_densa_D10_b
 Algoritmo: Naive
 Tiempo (ms): 8743
-Memoria utilizada (KB): 35
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 1024_densa_D10_b
 Algoritmo: Strassen
 Tiempo (ms): 861278
-Memoria utilizada (KB): 985
+Memoria utilizada (KB): 256
 -----------------------------------
 Dataset: 256_diagonal_D0_c
 Algoritmo: Naive
@@ -606,7 +606,7 @@ Memoria utilizada (KB): 0
 Dataset: 1024_densa_D0_b
 Algoritmo: Strassen
 Tiempo (ms): 862092
-Memoria utilizada (KB): 4794
+Memoria utilizada (KB): 300
 -----------------------------------
 Dataset: 256_dispersa_D10_c
 Algoritmo: Naive
@@ -631,12 +631,12 @@ Memoria utilizada (KB): 0
 Dataset: 1024_densa_D10_c
 Algoritmo: Naive
 Tiempo (ms): 9014
-Memoria utilizada (KB): 104
+Memoria utilizada (KB): 100
 -----------------------------------
 Dataset: 1024_densa_D10_c
 Algoritmo: Strassen
 Tiempo (ms): 865645
-Memoria utilizada (KB): 10985
+Memoria utilizada (KB): 512
 -----------------------------------
 Dataset: 1024_dispersa_D0_a
 Algoritmo: Naive
@@ -646,7 +646,7 @@ Memoria utilizada (KB): 0
 Dataset: 1024_dispersa_D0_a
 Algoritmo: Strassen
 Tiempo (ms): 852437
-Memoria utilizada (KB): 3487
+Memoria utilizada (KB): 300
 -----------------------------------
 Dataset: 16_densa_D0_a
 Algoritmo: Naive
@@ -701,12 +701,12 @@ Memoria utilizada (KB): 0
 Dataset: 1024_dispersa_D0_b
 Algoritmo: Naive
 Tiempo (ms): 8336
-Memoria utilizada (KB): 78
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: 1024_dispersa_D0_b
 Algoritmo: Strassen
 Tiempo (ms): 862093
-Memoria utilizada (KB): 6872
+Memoria utilizada (KB): 1024
 -----------------------------------
 Dataset: 16_dispersa_D0_b
 Algoritmo: Naive

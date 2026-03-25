@@ -66,8 +66,13 @@ def generar_graficos():
     tamaños = [0, 16, 64, 256, 1024]
     tiempos = [0, 1000, 10000, 100000, 1000000]
     for tipo in tipos:
+        if (tipo == "diagonal"):
+            memoria = [0, 800, 1500, 3000, 6000, 12000, 14000, 15000]
+        elif (tipo == "densa"):
+            memoria = [0, 100, 200, 300, 400, 500]
+        else:
+            memoria = [0, 100, 200, 300, 400, 500, 600, 700, 800,900, 1000]
         df_tipo = df_grouped[df_grouped['Tipo'] == tipo]
-
         plt.figure(figsize=(10, 6))
         for algo in algoritmos:
             subset = df_tipo[df_tipo['Algoritmo'] == algo].sort_values('Size')
@@ -98,8 +103,8 @@ def generar_graficos():
         plt.xlabel("Tamaño de Matriz (N)")
         plt.ylabel("Memoria Promedio Utilizada (KB)")
         plt.xticks(tamaños)
-        plt.yticks(tiempos)
-        plt.yscale('log')
+        plt.yticks(memoria)
+        #plt.yscale('log')
         plt.grid(True, linestyle='--', alpha=0.7)
         plt.legend()
         plt.tight_layout()

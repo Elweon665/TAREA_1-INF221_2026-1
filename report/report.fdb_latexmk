@@ -1,12 +1,18 @@
 # Fdb version 4
-["biber report"] 0 "report.bcf" "report.bbl" "report" 1774315276.20823 -1
+["biber report"] 0 "report.bcf" "report.bbl" "report" 1774408685.43846 -1
   "references.bib" 1773692234 1203 68417624b92d4cad67ce996846290956 ""
-  "report.bcf" 1774315276.04839 108551 66f4bafccad88a84f77b14c7778652d8 "pdflatex"
+  "report.bcf" 1774408685.27445 108551 66f4bafccad88a84f77b14c7778652d8 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["pdflatex"] 1774315272.11573 "/home/elweon665/Escritorio/Tarea 1 Algoco/template-tarea-1/report/report.tex" "report.pdf" "report" 1774315276.20857 0
+["pdflatex"] 1774408678.95616 "/home/elweon665/Escritorio/Tarea 1 Algoco/template-tarea-1/report/report.tex" "report.pdf" "report" 1774408685.43877 0
+  "../code/matrix_multiplication/data/plots/memoria_densa.png" 1774405351.65087 149827 af782496f0b19631b203bae0a8b58c99 ""
+  "../code/matrix_multiplication/data/plots/memoria_diagonal.png" 1774405352.60687 172769 2b348647e391890487c035b5023f246b ""
+  "../code/matrix_multiplication/data/plots/memoria_dispersa.png" 1774405353.59086 170583 34c8ec989a6b53ff665c38e8d64963d6 ""
+  "../code/matrix_multiplication/data/plots/tiempo_densa.png" 1774405351.30287 169881 ce4722e7ac4e6c82d112ffbe13f10f5a ""
+  "../code/matrix_multiplication/data/plots/tiempo_diagonal.png" 1774405352.21087 179286 2debdcb3cc02c62296f6d35b0d9818cd ""
+  "../code/matrix_multiplication/data/plots/tiempo_dispersa.png" 1774405353.22686 180706 a9c781b2bd5d6d9aebe816af7d8aeb52 ""
   "../code/sorting/data/plots/memoria_aleatorio.png" 1774314114.40943 181272 1e792f65d8772de4cdc601d372db3ed5 ""
   "../code/sorting/data/plots/memoria_ascendente.png" 1774314115.64942 181827 d7ca007402fff16eaf60ba311c6874d1 ""
   "../code/sorting/data/plots/memoria_descendente.png" 1774314116.74541 178577 b125158366965eabe7e46a42588d3984 ""
@@ -300,14 +306,14 @@
   "/usr/local/texlive/2026/texmf.cnf" 1774302835.94307 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "author.tex" 1774304269.79482 407 b9feeddb596eb44885e4adde7bbda4cd ""
   "preamble.tex" 1774312218.81543 2185 1bf478f8825ce0712241f265914b521e ""
-  "report.aux" 1774315276.02839 2348 6951acd9e7c65aa50fa3933aecd38eea "pdflatex"
+  "report.aux" 1774408685.25445 3679 60f06bb5708b8812bf8cb5c49e3ac419 "pdflatex"
   "report.bbl" 1774305230.62386 466 76d65a242ec496c9b4361af646ff12cb "biber report"
-  "report.out" 1774315276.04439 406 9f014d8548a379b0748383f91ce3555e "pdflatex"
-  "report.run.xml" 1774315276.04839 2319 85416a11bf768be6a1e5b1dccfd5e02c "pdflatex"
+  "report.out" 1774408685.27045 406 9f014d8548a379b0748383f91ce3555e "pdflatex"
+  "report.run.xml" 1774408685.27445 2319 85416a11bf768be6a1e5b1dccfd5e02c "pdflatex"
   "report.tex" 1774310887.02202 1062 91aa17fd16c6005eb4908cc926fc00d7 ""
-  "sections/conclusions.tex" 1773692234 278 56040fbacf151362f720a9be978c90ce ""
+  "sections/conclusions.tex" 1774408678.70251 735 f52a96903d054ad3281e5381e6ba6e91 ""
   "sections/experiment_intro.tex" 1774308018.91217 387 05c1178ddba7bdf6a8d8e0d45632d4f8 ""
-  "sections/experiment_results.tex" 1774315267.66052 4937 32de55b11a6f975708d9b71ec3bb41b3 ""
+  "sections/experiment_results.tex" 1774408308.89033 7213 fc382352f24be1dcb23871ac48866c25 ""
   (generated)
   "report.aux"
   "report.bcf"
