@@ -107,7 +107,7 @@ int main(){
     string directorio_entrada = "data/matrix_input";
 
     fs::create_directories("data/measurements");
-    ofstream limpiarArchivo("data/measurements/resultados_matrices.txt", ios::trunc);
+    ofstream limpiarArchivo("data/measurements/resultados_generales.txt", ios::trunc);
     limpiarArchivo.close();
     
     cout << "Iniciando proceso de multiplicacion de matrices..." << endl;
