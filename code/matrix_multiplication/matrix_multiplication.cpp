@@ -143,15 +143,12 @@ int main(){
                     int n = matriz1.size();
                     vector<vector<double>> d_mat1(n, vector<double>(n));
                     vector<vector<double>> d_mat2(n, vector<double>(n));
-                    cout << "dentro del for doble" << endl;
                     for(int i = 0; i < n; i++) {
                         for(int j = 0; j < n; j++) {
                             d_mat1[i][j] = matriz1[i][j];
                             d_mat2[i][j] = matriz2[i][j];
                         }
                     }
-
-                    cout << "fuera del for doble" << endl;
 
                     Matrix M1(d_mat1);
                     Matrix M2(d_mat2);
@@ -173,6 +170,8 @@ int main(){
     }
 
     cout << "\n¡Resultados de matrices guardados exitosamente!" << endl;
+    cout << "Generando graficos..." << endl;
+    system("cd scripts && python3 plot_generator.py");
 
     return 0;
 }

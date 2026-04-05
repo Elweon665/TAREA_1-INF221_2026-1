@@ -89,10 +89,10 @@ def generar_graficos():
         print(f"Guardado: {path}")
         plt.close()
 
-        if tipo == "ascendente":
+        if tipo == "aleatorio":
             memorias = [0, 400, 800, 1200, 1600,2000, 2400, 2800, 3200, 3400]
         else:
-            memorias = [0, 25, 50, 75, 100, 125, 150]
+            memorias = [0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200]
         # --- Gráfico Memoria ---
         plt.figure(figsize=(10, 6))
         for algo in algoritmos:

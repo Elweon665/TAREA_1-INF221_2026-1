@@ -120,13 +120,10 @@ int main(){
     cout << "hola" << endl;
     for (const auto& entry : fs::directory_iterator(directorio_entrada)){
         if (entry.is_regular_file()){
-            cout <<"dentro del if" <<endl;
             string filepath = entry.path().string(); 
             string filename = entry.path().filename().string(); 
             string datasetName = entry.path().stem().string();
-            cout << "strings asignados" << endl;
             vector<int> original_arr = Leer_arreglo(filepath);
-            cout << "vector asignado" << endl;
 
             cout << "  -> Ejecutando QuickSort..." << endl;
             realizar_mediciones([&](vector<int>& a) { quickSort(a); }, original_arr, "QuickSort", datasetName);
@@ -141,6 +138,8 @@ int main(){
     }
 
     cout << "Resultados guardados!" << endl;
+    cout << "Generando graficos..." << endl;
+    system("cd scripts && python3 plot_generator.py");
 
     return 0;
 

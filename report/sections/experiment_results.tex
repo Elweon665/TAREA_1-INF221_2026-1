@@ -1,6 +1,6 @@
-Estos son los resultados de estos experimentos en cuestion\\
+Estos son los resultados de estos experimentos en cuestión\\ 
 
-Empezaremos mostrando los resultados de los algoritmos de ordenamiento de arreglos (Sort, MergeSort y QuickSort)
+Empezaremos mostrando los resultados de los algoritmos de ordenamiento de arreglos (Sort, MergeSort y QuickSort) 
 
 \begin{figure}[H]
     \centering
@@ -14,11 +14,11 @@ Empezaremos mostrando los resultados de los algoritmos de ordenamiento de arregl
     \label{fig:grafico_aleatorio}
 \end{figure}
 
-Para este caso observamos que en memoria pasa un caso extraño, puesto a que los arreglos de 100000 presentaron el mayor consumo de memoria en MergeSort en vez de que los arreglos de mayor tamaño sean quienes lo presenten, es probable que se deba a la gestion de memoria del sistema operativo según lo investigado (Ver bibliografia)
+En Mergesort observamos que posee el mayor consumo de memoria debido principalmente al enfoque de "dividir y conquistar", al usar arreglos auxiliares durante las comparaciones, junto con el enfoque recursivo da como resultado un consumo de memoria mayor al resto de algoritmos. 
 
-En el caso de Quicksort presenciamos un fenomeno similar, pero a menor escala y en arreglos de 10000, mientras que en sort observamos que no presenta un consumo de memoria para nada notorio por la forma en el que este algoritmo opera.
+Quicksort y sort presentan consumos de memoria mucho más bajos, incluso en los arreglos más grandes debido a que poseen un enfoque totalmente distinto que no depende del uso de arreglos auxiliares como mergesort, ahorrando mucho en este aspecto. 
 
-En cuanto a tiempos, todos los algoritmos resultaron ser rapidos en arreglos de hasta 100000, pero cuando llegamos al tamaño maximo en el dataset estos escalan notoriamente, siendo mergesort el más tardio de los 3 en promedio de todos los casos, y con una diferencia notoria.
+En cuanto a tiempos, todos los algoritmos resultaron ser rápidos en arreglos de hasta 100000, pero cuando llegamos al tamaño máximo en el dataset estos escalan notoriamente, siendo mergesort el más tardío de los 3 en promedio de todos los casos, y con una diferencia notoria. 
 
 \begin{figure}[H]
     \centering
@@ -32,11 +32,11 @@ En cuanto a tiempos, todos los algoritmos resultaron ser rapidos en arreglos de 
     \label{fig:grafico_ascendente}
 \end{figure}
 
-En lo que respecta al consumo de memoria observamos un escenario más "común", pues como se espera los arreglos de tamaño maximo presentan el mayor consumo de memoria para el caso del algoritmo MergeSort, es apreciable como el consumo de memoria se dispara entre los arreglos de 100000 y 10000000
+En lo que respecta al consumo de memoria observamos que en Mergesort ocurre algo muy extraño, y es que presenta su mayor consumo de memoria en los arreglos de tamaño 100000 en vez de los de 10 millones, se ha probado con otras formas de medición de memoria y todos arrojan el mismo resultado. Lo más probable es que esto se deba en parte al funcionamiento de la gestión de memoria del SO. 
 
-En el caso de los otros algoritmos, estos mantienen un consumo bajo de memoria dado el enfoque de los mismos, por lo que se esperaba que MergeSort fuera el que "destacará" en este aspecto.
+En el caso de los otros algoritmos, estos mantienen un consumo bajo de memoria dado el enfoque de estos, por lo que se esperaba que MergeSort fuera el que destacara en este aspecto. 
 
-En cuanto al tiempo de ejecucion, el escenario es muy parecido al caso anterior con la diferencia de que en todos los algoritmos el tiempo es menor que en el caso aleatorio, por lo que se puede inferir que los algoritmos son más "eficientes" cuando los arreglos vienen desordenados de esa forma.
+En cuanto al tiempo de ejecución, el escenario es muy parecido al caso anterior con la diferencia de que en todos los algoritmos el tiempo es menor que en el caso aleatorio, por lo que se puede inferir que los algoritmos son más eficientes cuando los arreglos vienen desordenados de esa forma. 
 
 \begin{figure}[H]
     \centering
@@ -50,11 +50,11 @@ En cuanto al tiempo de ejecucion, el escenario es muy parecido al caso anterior 
     \label{fig:grafico_descendente}
 \end{figure}
 
-En el consumo de memoria tenemos un escenario parecido que en el caso de los arreglos aleatorios, pues MergeSort poseé tambien un mayor consumo de memoria en arreglos de 100000 y no en los de maximo tamaño, probablemte al motivo explicado anteriormente. Por otra parte, QuickSort y Sort no presentam un consumo notorio en este caso.
+En el consumo de memoria tenemos un escenario parecido que, en el caso de los arreglos ascendentes, pues MergeSort posee también un mayor consumo de memoria en arreglos de 100000 y no en los de máximo tamaño, probablemente al motivo explicado antes. Por otra parte, QuickSort y Sort no presentan un consumo notorio en este caso. 
 
-En los tiempos observamos un escenario parecido que en los arreglos ascendentes, tiempos menores que con los arreglos aleatorios, por lo que una vez más esta reduccion pueda deberse a la forma en el que los arreglos estaban desordenados.\\
+En los tiempos observamos un escenario parecido que, en los arreglos ascendentes, tiempos menores que con los arreglos aleatorios, por lo que una vez más esta reducción pueda deberse a la forma en el que los arreglos estaban desordenados.\\ 
 
-Pasando a los algoritmos de multiplicacion de matrices, obtuvimos los siguientes resultados:
+Pasando a los algoritmos de multiplicación de matrices, obtuvimos los siguientes resultados: 
 
 \begin{figure}[H]
     \centering
@@ -68,11 +68,11 @@ Pasando a los algoritmos de multiplicacion de matrices, obtuvimos los siguientes
     \label{fig:grafico_denso}
 \end{figure}
 
-Como podemos observar en priumera instancia en las matrices densas, el consumo de memoria de straseen es mayor independiente del tamaño de la matriz, esto debido a su enfoque de llamadas recursivas el cual aumenta el consumo de esta misma de forma significativa
+Como podemos observar en primera instancia en las matrices densas, el consumo de memoria de straseen es mayor independiente del tamaño de la matriz, esto debido a su enfoque de llamadas recursivas el cual aumenta el consumo de esta misma de forma significativa 
 
-En cambio naive, al ser un algoritmo de bucles y no recurrir a llamadas recursivas hace que su consumo de memoria sea muy inferior (Al menos para los tamaños tratados en este experimento)
+En cambio, naive, al ser un algoritmo de bucles y no recurrir a llamadas recursivas hace que su consumo de memoria sea muy inferior (Al menos para los tamaños tratados en este experimento) 
 
-En cuanto a tiempos de ejecucion, nos encontramos con que naive tambien presenta menores tiempos que strassen, incluso en las matrices de 1024x1024, esto se debe a que Strssen es generalmente mejor cuando se trata de matrices muy grandes, de ahí que naive sea más "apto" para los tamaños tratados aquí.
+En cuanto a tiempos de ejecución, nos encontramos con que naive también presenta menores tiempos que strassen, incluso en las matrices de 1024x1024, esto se debe a que Strassen es generalmente mejor cuando se trata de matrices muy grandes, de ahí que naive sea más apto para los tamaños tratados aquí. 
 
 \begin{figure}[H]
     \centering
@@ -86,8 +86,8 @@ En cuanto a tiempos de ejecucion, nos encontramos con que naive tambien presenta
     \label{fig:grafico_diagonal}
 \end{figure}
 
-Podemos notar que la tendencia se mantiene, strassen en matrices diagonales sigue presentando mayores tiempos de ejecucion y memoria que Naive, sin mencionar que acá 
-fue donde Strassen presentó el mayor consumo de memoria promedio probablemente por el enfoque de las matrices en cuestion, aunque los tiempos promedio de ambos algoritmos por tamaño se mantienen similares a los de las matrices densas.
+Podemos notar que la tendencia se mantiene, strassen en matrices diagonales sigue presentando mayores tiempos de ejecución y memoria que Naive, sin mencionar que acá  
+fue donde Strassen presentó el mayor consumo de memoria promedio probablemente por el enfoque de las matrices en cuestión, aunque los tiempos promedio de ambos algoritmos por tamaño se mantienen similares a los de las matrices densas. 
 
 \begin{figure}[H]
     \centering
@@ -101,8 +101,8 @@ fue donde Strassen presentó el mayor consumo de memoria promedio probablemente 
     \label{fig:grafico_dispersa}
 \end{figure}
 
-Acá se aprecia que el consumo de memoria en strassen se dispara considerablemente apartir de las matrices de 256x256, muy probablemente al "orden" de estas mismas y que en promedio son capaces de ocupar más espacio de memoria de lo usual a partir de un tamaño más pequeño.
-Naive mantiene la tendencia de bajo consumo de memoria.
+Acá se aprecia que el consumo de memoria en strassen se dispara considerablemente a partir de las matrices de 256x256, muy probablemente al orden de estas mismas y que en promedio son capaces de ocupar más espacio de memoria de lo usual a partir de un tamaño más pequeño. 
 
-Y en cuanto a los tiempos de ejecucion, se mantienen con un promedio similar por tamaño según los graficos y comparado con los otros tipos de matrices.
+Naive mantiene la tendencia de bajo consumo de memoria. 
 
+Y en cuanto a los tiempos de ejecución, se mantienen con un promedio similar por tamaño según los gráficos y comparado con los otros tipos de matrices. 
