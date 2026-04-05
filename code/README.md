@@ -2,117 +2,113 @@
 
 ## Entrega
 
-"Más allá de la notación asintótica: Análisis experimental de algoritmos de ordenamiento y multiplicación de matrices." Nombre: Vicente Carvajal Helqui Rol: 202273572-4
+"Más allá de la notación asintótica: Análisis experimental de algoritmos de ordenamiento y multiplicación de matrices." Nombre: Vicente Carvajal Helqui Rol: 202273572-4 
 
-En esta entrega se estudia el comportamiento de los algoritmos tanto de ordenamiento de arreglos así como los que permiten multiplicar matrices.
+En esta entrega se estudia el comportamiento de los algoritmos tanto de ordenamiento de arreglos, así como los que permiten multiplicar matrices. 
 
-Ejecucion del codigo: Dirijase a la carpeta de interes (aorting o matrix_multoplication) y dentro de ella escriba: "make run".
+Ejecución del codigo: Diríjase a la carpeta de interés (sorting o matrix_multoplication) y dentro de ella escriba: "make run". 
 
-En caso de querer graficar, dirig¿jase a la carpeta "scripts" y ejecute plot_generator.py con Python 3.10 o posterior.
+En caso de querer graficar, diríjase a la carpeta "scripts" y ejecute plot_generator.py con Python 3.10 o posterior. 
 
-## Multiplicación de matrices
+## Multiplicación de matrices 
+En esta entrega se consideran dos algoritmos de este tipo, los cuales son: Naive y Strassen. 
 
-En esta entrega se consideran dos algoritmos de este tipo, los cuales son: Naive y Strassen.
+Tal y como dice el documento de la entrega, son algoritmos conocidos y que han sido documentados en varias partes (Sobre todo en internet) Por lo que se implementaron y adaptaron implementaciones conocidas de ambos algoritmos 
 
-Tal y como dice el documento de la entrega, son algoritmos conocidos y que han sido documentados en varias partes (Sobre todo en internet) Por lo que se implementaron y adaptaron implementaciones conocidas de ambos algoritmos
+A continuación, se documentarán el propósito de las funciones de cada código: 
 
-A continuacion, se documentaran el proposito de las funciones de cada codigo:
 
-strassen.cpp:
+strassen.cpp: 
 
-valitadateDimensions: Verifica que las dimensiones de las matrices son cuadradas y por ende validas
+valitadateDimensions: Verifica que las dimensiones de las matrices son cuadradas y por ende validas 
 
-validateMultiplication: Verifica que las matrices se puedan multiplicar
+validateMultiplication: Verifica que las matrices se puedan multiplicar 
 
-validateSquarePowerofTwo: Revisa que la matriz sea cuadrada
+validateSquarePowerofTwo: Revisa que la matriz sea cuadrada 
 
-operator+: Realiza la operacion de suma cuando es necesaria
+operator+: Realiza la operación de suma cuando es necesaria 
 
-operator-: Realiza la operacion de resta cuando es necesaria
+operator-: Realiza la operación de resta cuando es necesaria 
 
-operator*: Realiza la operacion de multiplicacion de 2 valores
+operator*: Realiza la operación de multiplicación de 2 valores 
 
-operator>>: Realiza la operacion de shiteo
+operator>>: Realiza la operación de shiteo 
 
-toStringWithPresision: convierte el resultado de una multiplicacion a string para poder ser escrito en el texto que contiene el resultado de la multiplicacion de la matriz
+toStringWithPresision: convierte el resultado de una multiplicación a string para poder ser escrito en el texto que contiene el resultado de la multiplicación de la matriz 
 
-params: Funcion que define parte de las reglas para dividir la matriz, es como un diccionario de coordenadas, un mapa.
+params: Función que define parte de las reglas para dividir la matriz, es como un diccionario de coordenadas, un mapa. 
 
-fromQuaters: Funcion que realiza la division de las matrices en submatrices en bae a las reglas definidas por la funcion params
+fromQuaters: Función que realiza la división de las matrices en submatrices en base a las reglas definidas por la función params 
 
-strassen: Funcion principal, encargado de realizar la multiplicacion mediante este algoritmo llamando a las funciones respectivas según el paso a realizar.
+strassen: Función principal, encargado de realizar la multiplicación mediante este algoritmo llamando a las funciones respectivas según el paso a realizar. 
 
-Funciones de naive.cpp:
+Funciones de naive.cpp: 
 
-naive: Funcion principal, este se encaarga de ejecutar el algoritmo como tal, sin mucha más ciencia.
+naive: Función principal, este se encarga de ejecutar el algoritmo como tal, sin mucha más ciencia. 
+### Programa principal 
+matrix_multiplication.cpp es el programa principal. 
 
-### Programa principal
+Funciones de matrix_multiplication.cpp: 
 
-matrix_multiplication.cpp es el programa principal.
+writeMatrixToFile: Función que se encarga finalmente de escribir la matriz resultante en el archivo de salida 
 
-Funciones de matrix_multiplication.cpp:
+get_MemoryUsage: Se encarga de medir el uso de la memoria RAM durante la ejecución de los archivos 
 
-writeMatrixToFile: Funcion que se encarga finalmente de escribir la matriz resultante en el archivo de salida
+Leer_Matriz: Lee las matrices de entrada y hace la conversión respectiva del .txt original para que se pueda realizar la multiplicación de las matrices posteriormente. 
 
-get_MemoryUsage: Se encarga de medir el uso de la memoria RAM durante la ejecucion de los archivos
+realizar_mediciones: Realiza las mediciones respectivas de tiempo y memoria llamando a las funciones respectivas, además de mandar a ejecutar los algoritmos de multiplicación de matrices, además de escribir el resultado de las mediciones en un archivo de texto llamado "resultados_generales.txt" dentro de la carpeta "measurements" 
 
-Leer_Matriz: Lee las matrices de entrada y hace la conversion respectiva del .txt original para que se puueda realizar la multiplicacion de las matrices posteriormente.
+main: Función principal, encargado de recibir las matrices de entrada, verificarlas, y posteriormente mandar a ejecutar los algoritmos respectivos. 
 
-realizar_mediciones: Realiza las mediciones respectivas de tiempo y memoria llamando a las funciones respectivas, además de mandar a ejecutar los algoritmos de multiplicacion de matrices, además de escribir el resultado de las mediciones en un archivo de texto llamado "resultados_generales.txt" dentro de la carpeta "measurements"
+### Scripts 
+matrix_generator.py: Programa encargado de crear los archivos de entrada que quedan guardados en matrix_input. 
 
-main: Funcion principal, encargado de recibir las matrices de entrada, verificarlas, y posteriormente mandar a ejecutar los algoritmos respectivos.
+plot_generator.py: Script encargado de tomar los datos escritos en "resultados_generales.txt" y genera los gráficos que representan los resultados generales. 
+## Ordenamiento de arreglo unidimensional 
 
-### Scripts
+Algoritmos: MergeSort, QuickSort, std::sort. 
 
-matrix_generator.py: Programa encargado de crear los archivos de entrada que quedan guardados en matrix_input.
+Al igual que en el caso de las matrices, estos algoritmos son conocidos y se ha decidido colocar implementaciones externas de estos mismos, a excepción de sort.cpp donde este viene con el código ya escrito por defecto en esta entrega. 
 
-plot_generator.py: Script encargador de tomar los datos escritos en "resultados_generales.txt" y genera los graficos que representan los resultados generales.
+A continuación, se documentarán el uso de las funciones de cada programa: 
 
-## Ordenamiento de arreglo unidimensional
+mergesort.cpp 
 
-Algoritmos: MergeSort, QuickSort, std::sort.
+merge: Esta función se encarga de realizar la división en sublistas de los arreglos, como lo propone parte del algoritmo 
 
-Al igual que en el caso de las matrices, estos algoritmos son conocidos y se ha decidido colocar implementaciones externas de estos mismos, a excepcion de sort.cpp donde este viene con el codigo ya escrito por defecto en esta entrega.
+sort: Se encarga de forma recursiva de ordenar el arreglo en base a las subdivisiones realizadas anteriormente 
 
-A continuacion, se documentaran el uso de las funciones de cada programa:
+mergeSort: Función principal, se encarga de ejecutar el algoritmo llamando a las funciones como tal. 
 
-mergesort.cpp
 
-merge: Esta funcion se encarga de realizar la division en sublistas de los arreglos, como lo popone parte del algoritmo
+quicksort.cpp:  
 
-sort: Se encarga de forma recursiva de  ordenar el arreglo en base a las subdivisiones realizadas anteriormente
+partition: Se encarga de realizar las particiones en base a un pivote seleccionado de forma aleatoria y realizar los intercambios necesarios a través del uso de la recursión. 
 
-mergeSort: Funcion principal, se encarga de ejecuatar el algoritmo llamando a las funciones como tal.
+void quickSort(vector<int> &vec, int low, int high):  
 
-quicksort.cpp: 
+Parte del algoritmo, llama a la función de partición y de forma recursiva llama a sí misma a medida que se va realizando el ordenamiento en base a los pivotes aleatorios. 
 
-partition: Se encarga de realizar las particiones en base a un pivote seleccionado de forma aleatoria y realizar los intercambios necesarios a traves del uso de la recursion.
+void quickSort(vector<int> &vec): Recibe el arreglo y si no está vacío comienza con la ejecución del algoritmo Quicksort. 
 
-void quickSort(vector<int> &vec, int low, int high): 
-Parte del algoritmo, llama a la funcion de particion y de forma recursivase llama a si misma a medida que se va realizando el ordenamiento en base a los pivotes aleatorios.
+sort.cpp: 
 
-void quickSort(vector<int> &vec): Recibe el arreglo y si no esta vacio comienza con la ejecucion del algoritmo quicksort.
+sortArray: Recibe el arreglo y ejecuta la función estándar llamada "sort". 
 
-sort.cpp:
+### Programa principal 
+sorting.cpp es el programa principal. 
 
-sortArray: Recibe el arreglo y ejecuta la funcion estandar llamada "sort".
+writeArraysToFile: Función que se encarga finalmente de escribir el arreglo resultante en el archivo de salida 
 
-### Programa principal
+get_MemoryUsage: Se encarga de medir el uso de la memoria RAM durante la ejecución de los archivos 
 
-sorting.cpp es el programa principal.
+Leer_arreglo: Lee los arreglos de entrada y hace la conversión respectiva del .txt original para que se pueda realizar el ordenamiento de arreglos posteriormente. 
 
-writeArraysToFile: Funcion que se encarga finalmente de escribir el arreglo resultante en el archivo de salida
+realizar_mediciones: Realiza las mediciones respectivas de tiempo y memoria llamando a las funciones respectivas, además de mandar a ejecutar los algoritmos de ordenamiento de arreglos, además de escribir el resultado de las mediciones en un archivo de texto llamado "resultados_generales.txt" dentro de la carpeta "measurements" 
 
-get_MemoryUsage: Se encarga de medir el uso de la memoria RAM durante la ejecucion de los archivos
+ 
+main: Función principal, encargado de recibir los arreglos de entrada, verificarlas, y posteriormente mandar a ejecutar los algoritmos respectivos. 
+### Scripts 
+array_generator.py: Programa encargado de crear los archivos de entrada que quedan guardados en array_input. 
 
-Leer_arreglo: Lee los arreglos de entrada y hace la conversion respectiva del .txt original para que se puueda realizar e ordenamiento de arreglos posteriormente.
-
-realizar_mediciones: Realiza las mediciones respectivas de tiempo y memoria llamando a las funciones respectivas, además de mandar a ejecutar los algoritmos de ordenamiento de arreglos, además de escribir el resultado de las mediciones en un archivo de texto llamado "resultados_generales.txt" dentro de la carpeta "measurements"
-
-main: Funcion principal, encargado de recibir los arreglos de entrada, verificarlas, y posteriormente mandar a ejecutar los algoritmos respectivos.
-
-### Scripts
-
-array_generator.py: Programa encargado de crear los archivos de entrada que quedan guardados en array_input.
-
-plot_generator.py: Script encargador de tomar los datos escritos en "resultados_generales.txt" y genera los graficos que representan los resultados generales.
+plot_generator.py: Script encargado de tomar los datos escritos en "resultados_generales.txt" y genera los gráficos que representan los resultados generales. 
