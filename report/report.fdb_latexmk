@@ -1,12 +1,11 @@
 # Fdb version 4
-["biber report"] 0 "report.bcf" "report.bbl" "report" 1775427179.0934 -1
-  "references.bib" 1773692234 1203 68417624b92d4cad67ce996846290956 ""
+["biber report"] 1775432119.46639 "report.bcf" "report.bbl" "report" 1775432125.08279 0
   "report.bcf" 1775427178.89006 108551 66f4bafccad88a84f77b14c7778652d8 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["pdflatex"] 1775427172.32785 "/home/elweon665/Escritorio/Tarea 1 Algoco/template-tarea-1/report/report.tex" "report.pdf" "report" 1775427179.09374 0
+["pdflatex"] 1775427172.32785 "/home/elweon665/Escritorio/Tarea 1 Algoco/template-tarea-1/report/report.tex" "report.pdf" "report" 1775432125.08285 0
   "../code/matrix_multiplication/data/plots/memoria_densa.png" 1774405351.65087 149827 af782496f0b19631b203bae0a8b58c99 ""
   "../code/matrix_multiplication/data/plots/memoria_diagonal.png" 1774405352.60687 172769 2b348647e391890487c035b5023f246b ""
   "../code/matrix_multiplication/data/plots/memoria_dispersa.png" 1774405353.59086 170583 34c8ec989a6b53ff665c38e8d64963d6 ""
@@ -307,7 +306,7 @@
   "author.tex" 1774304269.79482 407 b9feeddb596eb44885e4adde7bbda4cd ""
   "preamble.tex" 1774312218.81543 2185 1bf478f8825ce0712241f265914b521e ""
   "report.aux" 1775427178.86206 3679 60f06bb5708b8812bf8cb5c49e3ac419 "pdflatex"
-  "report.bbl" 1774305230.62386 466 76d65a242ec496c9b4361af646ff12cb "biber report"
+  "report.bbl" 1775432125.02937 466 76d65a242ec496c9b4361af646ff12cb "biber report"
   "report.out" 1775427178.88206 406 9f014d8548a379b0748383f91ce3555e "pdflatex"
   "report.run.xml" 1775427178.89006 2319 85416a11bf768be6a1e5b1dccfd5e02c "pdflatex"
   "report.tex" 1774310887.02202 1062 91aa17fd16c6005eb4908cc926fc00d7 ""
